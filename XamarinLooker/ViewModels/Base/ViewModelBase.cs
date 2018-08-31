@@ -1,11 +1,17 @@
 ﻿using System.Threading.Tasks;
+using XamarinLooker.Services;
 
-namespace XamarinLooker.Shared
+namespace XamarinLooker.ViewModels.Base
 {
     public abstract class ViewModelBase : ExtendedBindableObject
     {
 
         private bool _isBusy;
+
+        public ViewModelBase()
+        {
+            NavigationService = ViewModelLocator.Resolve<INavigationService>();
+        }
 
         public bool IsBusy
         {
@@ -20,6 +26,8 @@ namespace XamarinLooker.Shared
                 RaisePropertyChanged(() => IsBusy);
             }
         }
+
+        public INavigationService NavigationService { get; }
 
         public virtual Task InitializeAsync(object navigationData)
         {

@@ -2,14 +2,20 @@
 
 using Android.App;
 using Android.Content.PM;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
+using Android.Content;
 using Android.OS;
+using Auth0.OidcClient;
+using XamarinLooker.Model;
 
 namespace XamarinLooker.Droid
 {
-    [Activity(Label = "XamarinLooker", Icon = "@mipmap/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
+    [Activity( Label = "XamarinLooker", Icon = "@mipmap/icon", Theme = "@style/MainTheme", MainLauncher = true, LaunchMode = LaunchMode.SingleTask)]
+    [IntentFilter(
+        new[] { Intent.ActionView },
+        Categories = new[] { Intent.CategoryDefault, Intent.CategoryBrowsable },
+        DataScheme = "com.wegolook.xamarinlooker",
+        DataHost = AuthenticationConfig.Domain,
+        DataPathPrefix = "/android/com.wegolook.xamarinlooker/callback")]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
         protected override void OnCreate(Bundle savedInstanceState)
@@ -18,8 +24,18 @@ namespace XamarinLooker.Droid
             ToolbarResource = Resource.Layout.Toolbar;
 
             base.OnCreate(savedInstanceState);
+
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
+
             LoadApplication(new App());
         }
+
+        protected override void OnNewIntent(Intent intent)
+        {
+            base.OnNewIntent(intent);
+
+            ActivityMediator.Instance.Send(intent.DataString);
+        }
+       
     }
 }

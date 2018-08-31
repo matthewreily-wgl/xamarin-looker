@@ -1,6 +1,9 @@
-﻿using System;
+﻿using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using XamarinLooker.Services;
+using XamarinLooker.ViewModels.Base;
+using XamarinLooker.Views;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace XamarinLooker
@@ -10,13 +13,18 @@ namespace XamarinLooker
         public App()
         {
             InitializeComponent();
+            MainPage = new AuthenticateView();
 
-            MainPage = new MainPage();
         }
-
-        protected override void OnStart()
+        private Task InitNavigation()
         {
-            // Handle when your app starts
+            var navigationService = ViewModelLocator.Resolve<INavigationService>();
+            return navigationService.InitializeAsync();
+        }
+        protected override async void OnStart()
+        {
+            base.OnStart();
+            await InitNavigation();
         }
 
         protected override void OnSleep()

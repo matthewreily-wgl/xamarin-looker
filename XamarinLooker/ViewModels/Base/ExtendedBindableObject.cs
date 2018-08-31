@@ -3,7 +3,7 @@ using System.ComponentModel;
 using System.Linq.Expressions;
 using System.Reflection;
 
-namespace XamarinLooker.Shared
+namespace XamarinLooker.ViewModels.Base
 {
     public abstract class ExtendedBindableObject : INotifyPropertyChanged
     {
@@ -17,10 +17,7 @@ namespace XamarinLooker.Shared
 
         private void OnPropertyChanged(string name)
         {
-            if (PropertyChanged != null)
-            {
-                PropertyChanged(this, new PropertyChangedEventArgs(name));
-            }
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(name));
         }
 
         private MemberInfo GetMemberInfo(Expression expression)
