@@ -1,5 +1,4 @@
-﻿using System;
-namespace XamarinLooker.Model
+﻿namespace XamarinLooker.Model
 {
     public static class AuthenticationConfig
     {

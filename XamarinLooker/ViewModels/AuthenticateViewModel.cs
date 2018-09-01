@@ -23,10 +23,7 @@ namespace XamarinLooker.ViewModels
 
         public bool IsAuthenticated
         {
-            get
-            {
-                return _isAuthenticated;
-            }
+            get => _isAuthenticated;
 
             set
             {
@@ -34,7 +31,8 @@ namespace XamarinLooker.ViewModels
                 RaisePropertyChanged(() => IsAuthenticated);
             }
         }
-        public async void Login()
+
+        private async void Login()
         {
             var result = await _authenticationService.Authenticate();
 

@@ -35,8 +35,8 @@ namespace XamarinLooker.Services
 
                 return NavigateToAsync<AuthenticateViewModel>();
             }
-            else
-                return NavigateToAsync<MainViewModel>();
+
+            return NavigateToAsync<MainViewModel>();
         }
 
         public Task NavigateToAsync<TViewModel>() where TViewModel : ViewModelBase
@@ -64,11 +64,9 @@ namespace XamarinLooker.Services
 
         public Task RemoveBackStackAsync()
         {
-            var mainPage = Application.Current.MainPage as CustomNavigationView;
-
-            if (mainPage != null)
+            if (Application.Current.MainPage is CustomNavigationView mainPage)
             {
-                for (int i = 0; i < mainPage.Navigation.NavigationStack.Count - 1; i++)
+                for (var i = 0; i < mainPage.Navigation.NavigationStack.Count - 1; i++)
                 {
                     var page = mainPage.Navigation.NavigationStack[i];
                     mainPage.Navigation.RemovePage(page);
@@ -80,7 +78,7 @@ namespace XamarinLooker.Services
 
         private async Task InternalNavigateToAsync(Type viewModelType, object parameter)
         {
-            Page page = CreatePage(viewModelType, parameter);
+            var page = CreatePage(viewModelType, parameter);
 
             if (page is AuthenticateView)
             {

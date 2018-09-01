@@ -8,17 +8,14 @@ namespace XamarinLooker.ViewModels.Base
 
         private bool _isBusy;
 
-        public ViewModelBase()
+        protected ViewModelBase()
         {
             NavigationService = ViewModelLocator.Resolve<INavigationService>();
         }
 
         public bool IsBusy
         {
-            get
-            {
-                return _isBusy;
-            }
+            get => _isBusy;
 
             set
             {
@@ -27,7 +24,7 @@ namespace XamarinLooker.ViewModels.Base
             }
         }
 
-        public INavigationService NavigationService { get; }
+        protected INavigationService NavigationService { get; }
 
         public virtual Task InitializeAsync(object navigationData)
         {
