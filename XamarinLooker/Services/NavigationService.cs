@@ -111,13 +111,13 @@ namespace XamarinLooker.Services
 
         private Page CreatePage(Type viewModelType, object parameter)
         {
-            Type pageType = GetPageTypeForViewModel(viewModelType);
+            var pageType = GetPageTypeForViewModel(viewModelType);
             if (pageType == null)
             {
                 throw new Exception($"Cannot locate page type for {viewModelType}");
             }
 
-            Page page = Activator.CreateInstance(pageType) as Page;
+            var page = Activator.CreateInstance(pageType) as Page;
             return page;
         }
     }

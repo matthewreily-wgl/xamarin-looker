@@ -1,4 +1,5 @@
 ﻿using System.Collections.ObjectModel;
+using System.Threading.Tasks;
 using XamarinLooker.Model;
 using XamarinLooker.Services;
 using XamarinLooker.ViewModels.Base;
@@ -7,8 +8,20 @@ namespace XamarinLooker.ViewModels
 {
     public class LooksViewModel : ViewModelBase
     {
+        private readonly ISettingsService _settingsService;
+        private readonly INetworkService _networkService;
         private Look _selectedLook;
-        public ObservableCollection<Look> Looks { get; set; }
+        private ObservableCollection<Look> _looks;
+
+        public ObservableCollection<Look> Looks 
+        { 
+            get => _looks; 
+            set 
+            {
+                RaisePropertyChanged(() => Looks);
+                _looks = value; 
+            } 
+        }
 
         public Look SelectedLook
         {
@@ -16,31 +29,64 @@ namespace XamarinLooker.ViewModels
 
             set
             {
-                RaisePropertyChanged(()=>SelectedLook);
+                RaisePropertyChanged(() => SelectedLook);
                 _selectedLook = value;
                 NavigationService.NavigateToAsync<LookDetailsViewModel>(SelectedLook);
-            } 
+            }
         }
 
-        public LooksViewModel(ISettingsService settingsService)
+        public LooksViewModel(ISettingsService settingsService, INetworkService networkService)
         {
-            if (settingsService.UseMockData)
+            _settingsService = settingsService;
+            _networkService = networkService;
+            Looks = new ObservableCollection<Look>();
+        }
+        public override async Task InitializeAsync(object navigationData)
+        {
+            IsBusy = true;
+            Looks = await GetLooks();
+            IsBusy = false;
+        }
+
+        private async Task<ObservableCollection<Look>> GetLooks()
+        {
+            if (_settingsService.UseMockData)
             {
-                Looks = new ObservableCollection<Look>()
+                return new ObservableCollection<Look>()
                 {
-                    new Look()
+                    new Look
                     {
                         JobNumber = "123456789",
                         Distance = "12 miles",
-                        LookType = "Auto Inspection"
+                        Schema = new Schema{Name = "Vehicle Verification", LookerFee = "2000"},
+                        DueDates = new DueDates{
+                            Looker = new DateFragments
+                            {
+                                Date="25",
+                                Month="12",
+                                Year="2018"
+                            }
+                        }
                     },
-                    new Look()
+                    new Look
                     {
                         JobNumber = "987654321",
                         Distance = "2 miles",
-                        LookType = "Door Hanger"
+                        Schema = new Schema{Name = "Door Hanger", LookerFee = "200"},
+                         DueDates = new DueDates{
+                            Looker = new DateFragments
+                            {
+                                Date="25",
+                                Month="12",
+                                Year="2018"
+                            }
+                        }
                     }
                 };
+            }
+            else
+            {
+                return new ObservableCollection<Look>(await _networkService.GetLooks());
             }
         }
     }

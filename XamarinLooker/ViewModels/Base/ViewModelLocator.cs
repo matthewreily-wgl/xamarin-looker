@@ -34,11 +34,15 @@ namespace XamarinLooker.ViewModels.Base
             _container.RegisterSingleton<AuthenticateViewModel>();
             _container.RegisterSingleton<LooksViewModel>();
             _container.RegisterSingleton<LookDetailsViewModel>();
+            
             ISettingsService settingService = new SettingsService();
 
             settingService.UseMockData = true;
-            _container.RegisterInstance<ISettingsService>(settingService);
+            
+            _container.RegisterInstance(settingService);
+            _container.RegisterInstance<INetworkService>(new NetworkService(settingService));
             _container.RegisterInstance<INavigationService>(new NavigationService(settingService));
+            
 
 
         }

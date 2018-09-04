@@ -1,12 +1,31 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamarinLooker.Views.LooksView"
              xmlns:viewModelBase="clr-namespace:XamarinLooker.ViewModels.Base;assembly=XamarinLooker"
              viewModelBase:ViewModelLocator.AutoWireViewModel="true">
     <ContentPage.Content>     
-        <ListView x:Name="LooksListView" ItemsSource="{Binding Looks}" SelectedItem="{Binding SelectedLook, Mode=TwoWay}" >
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <TextCell Text="{Binding JobNumber}" />
+        <ListView x:Name="LooksListView" RowHeight="200" ItemsSource="{Binding Looks}" SelectedItem="{Binding SelectedLook, Mode=TwoWay}" >
+            <ListView.ItemTemplate >
+                <DataTemplate >
+                    <ViewCell>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                    <RowDefinition Height="*"></RowDefinition>
+                                <RowDefinition Height="*"></RowDefinition>
+                                <RowDefinition Height="*"></RowDefinition>
+                                <RowDefinition Height="*"></RowDefinition>
+                    
+                </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                            <ColumnDefinition Width="*"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                          <Label Grid.Row="0" Grid.Column="0" Text="{Binding Schema.Name}"></Label>
+                          <Label Grid.Row="1" Grid.Column="0" Text="{Binding LookerDueDate}"></Label>
+                          <Label Grid.Row="2" Grid.Column="0" Text="{Binding LookAddress.FormattedAddress}"></Label>
+                          <Label Grid.Row="0" Grid.RowSpan="4" Grid.Column="1" Text="{Binding LookerFee}"></Label>
+                        </Grid>
+                    </ViewCell>
+                    
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
