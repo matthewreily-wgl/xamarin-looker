@@ -13,7 +13,6 @@ namespace XamarinLooker
         public App()
         {
             InitializeComponent();
-            MainPage = new AuthenticateView();
 
         }
         private Task InitNavigation()

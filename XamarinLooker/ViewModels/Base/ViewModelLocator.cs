@@ -27,14 +27,16 @@ namespace XamarinLooker.ViewModels.Base
             bindable.SetValue(ViewModelLocator.AutoWireViewModelProperty, value);
         }
 
-        public static bool UseMockService { get; set; }
-
         static ViewModelLocator()
         {
             _container = new UnityContainer();
 
             _container.RegisterSingleton<AuthenticateViewModel>();
+            _container.RegisterSingleton<LooksViewModel>();
+            _container.RegisterSingleton<LookDetailsViewModel>();
             ISettingsService settingService = new SettingsService();
+
+            settingService.UseMockData = true;
             _container.RegisterInstance<ISettingsService>(settingService);
             _container.RegisterInstance<INavigationService>(new NavigationService(settingService));
 

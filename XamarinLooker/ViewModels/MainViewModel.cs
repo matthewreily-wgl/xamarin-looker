@@ -6,6 +6,7 @@ namespace XamarinLooker.ViewModels
     {
         public MainViewModel()
         {
+            
         }
     }
 }

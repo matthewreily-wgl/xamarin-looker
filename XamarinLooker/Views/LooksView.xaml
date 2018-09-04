@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamarinLooker.Views.LooksView"
+             xmlns:viewModelBase="clr-namespace:XamarinLooker.ViewModels.Base;assembly=XamarinLooker"
+             viewModelBase:ViewModelLocator.AutoWireViewModel="true">
+    <ContentPage.Content>     
+        <ListView x:Name="LooksListView" ItemsSource="{Binding Looks}" SelectedItem="{Binding SelectedLook, Mode=TwoWay}" >
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding JobNumber}" />
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </ContentPage.Content>
+</ContentPage>
