@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamarinLooker.Views.LooksView"
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinLooker.Views.LooksView"
              xmlns:viewModelBase="clr-namespace:XamarinLooker.ViewModels.Base;assembly=XamarinLooker"
              viewModelBase:ViewModelLocator.AutoWireViewModel="true">
-    <ContentPage.Content>     
-        <ListView x:Name="LooksListView" RowHeight="200" ItemsSource="{Binding Looks}" SelectedItem="{Binding SelectedLook, Mode=TwoWay}" >
-            <ListView.ItemTemplate >
-                <DataTemplate >
+    <ContentPage.Content>
+        <ListView x:Name="LooksListView" RowHeight="100" ItemsSource="{Binding Looks}"
+                  SelectedItem="{Binding SelectedLook, Mode=TwoWay}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
                     <ViewCell>
-                        <Grid>
+                        <Grid Padding="5">
                             <Grid.RowDefinitions>
-                    <RowDefinition Height="*"></RowDefinition>
-                                <RowDefinition Height="*"></RowDefinition>
-                                <RowDefinition Height="*"></RowDefinition>
-                                <RowDefinition Height="*"></RowDefinition>
-                    
-                </Grid.RowDefinitions>
+                                <RowDefinition Height="20" />
+                                <RowDefinition Height="20" />
+                                <RowDefinition Height="20" />
+                            </Grid.RowDefinitions>
                             <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="*"></ColumnDefinition>
-                            <ColumnDefinition Width="*"></ColumnDefinition>
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="*" />
                             </Grid.ColumnDefinitions>
-                          <Label Grid.Row="0" Grid.Column="0" Text="{Binding Schema.Name}"></Label>
-                          <Label Grid.Row="1" Grid.Column="0" Text="{Binding LookerDueDate}"></Label>
-                          <Label Grid.Row="2" Grid.Column="0" Text="{Binding LookAddress.FormattedAddress}"></Label>
-                          <Label Grid.Row="0" Grid.RowSpan="4" Grid.Column="1" Text="{Binding LookerFee}"></Label>
+                            <Label Grid.Row="0" Grid.Column="0" Text="{Binding Schema.Name}" />
+                            <Label Grid.Row="1" Grid.Column="0" Text="{Binding LookerDueDate}" />
+                            <Label Grid.Row="2" Grid.Column="0" Text="{Binding LookAddress.FormattedAddress}" />
+                            <Label Grid.Row="0" FontAttributes="Bold" Grid.RowSpan="3" HorizontalTextAlignment="End"
+                                   VerticalTextAlignment="Center" Grid.Column="1" Text="{Binding LookerFee}" />
                         </Grid>
                     </ViewCell>
-                    
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>

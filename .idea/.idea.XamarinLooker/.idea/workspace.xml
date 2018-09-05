@@ -4,22 +4,21 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6b4b334-d28b-4f6a-b3bc-538cf7d9afe3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/XamarinLooker/ExtensionHelpers/DateFragmentExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XamarinLooker/ExtensionHelpers/StringExtensions.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XamarinLooker/Model/DateFragments.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XamarinLooker/Model/DueDates.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XamarinLooker/Model/LookAddress.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XamarinLooker/Model/Schema.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XamarinLooker/Model/UserInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XamarinLooker/Services/INetworkService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XamarinLooker/Services/NetworkService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/XamarinLooker/Services/SettingsService.cs" afterDir="false" />
+    <list default="true" id="c6b4b334-d28b-4f6a-b3bc-538cf7d9afe3" name="Default Changelist" comment="Made a couple of formatting changes after trying out new Rider Ide at home">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.XamarinLooker/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.XamarinLooker/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.XamarinLooker/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.XamarinLooker/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XamarinLooker/ExtensionHelpers/StringExtensions.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XamarinLooker/Model/DateFragments.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XamarinLooker/Model/DueDates.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/XamarinLooker/Model/Look.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XamarinLooker/Model/Look.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XamarinLooker/Model/LookAddress.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XamarinLooker/Model/Schema.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XamarinLooker/Model/UserInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XamarinLooker/Services/INetworkService.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/XamarinLooker/Services/ISettingsService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XamarinLooker/Services/ISettingsService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XamarinLooker/Services/NavigationService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XamarinLooker/Services/NavigationService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/XamarinLooker/Services/NetworkService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/XamarinLooker/Services/SettingsService.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/XamarinLooker/ViewModels/AuthenticateViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XamarinLooker/ViewModels/AuthenticateViewModel.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XamarinLooker/ViewModels/Base/ViewModelLocator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XamarinLooker/ViewModels/Base/ViewModelLocator.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/XamarinLooker/ViewModels/LooksViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/XamarinLooker/ViewModels/LooksViewModel.cs" afterDir="false" />
@@ -43,7 +42,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cs" value="38" />
+          <entry key="cs" value="40" />
           <entry key="csproj" value="1" />
           <entry key="targets" value="1" />
           <entry key="xaml" value="15" />
@@ -51,7 +50,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="C#" value="38" />
+          <entry key="C#" value="40" />
           <entry key="Csproj" value="1" />
           <entry key="MsBuild targets file" value="1" />
           <entry key="XAML" value="15" />
@@ -62,7 +61,7 @@
           <entry key="cs" value="603" />
           <entry key="csproj" value="1" />
           <entry key="txt" value="75" />
-          <entry key="xaml" value="173" />
+          <entry key="xaml" value="215" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -70,7 +69,7 @@
           <entry key="C#" value="603" />
           <entry key="Csproj" value="1" />
           <entry key="PLAIN_TEXT" value="75" />
-          <entry key="XAML" value="173" />
+          <entry key="XAML" value="215" />
         </counts>
       </usages-collector>
     </session>
@@ -112,45 +111,18 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/XamarinLooker/ViewModels/AuthenticateViewModel.cs">
+        <entry file="file://$PROJECT_DIR$/XamarinLooker/ViewModels/LookDetailsViewModel.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+            <state relative-caret-position="300">
+              <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
               <folding>
-                <marker date="1536102044351" expanded="false" signature="7:196" ph="..." />
-                <marker date="1536102044351" expanded="true" signature="232:1783" ph="{...}" />
-                <marker date="1536102044351" expanded="true" signature="289:1781" ph="{...}" />
-                <marker date="1536102044351" expanded="true" signature="538:816" ph="{...}" />
-                <marker date="1536102044351" expanded="true" signature="753:806" ph="{...}" />
-                <marker date="1536102044351" expanded="true" signature="853:1058" ph="{...}" />
-                <marker date="1536102044351" expanded="true" signature="917:1048" ph="{...}" />
-                <marker date="1536102044351" expanded="true" signature="1094:1775" ph="{...}" />
-                <marker date="1536102044351" expanded="true" signature="1208:1765" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/XamarinLooker/Model/UserInfo.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <folding>
-                <marker date="1536102044346" expanded="true" signature="53:179" ph="{...}" />
-                <marker date="1536102044346" expanded="true" signature="81:177" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/XamarinLooker/Services/SettingsService.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
-              <folding>
-                <marker date="1536078287810" expanded="true" signature="32:241" ph="{...}" />
-                <marker date="1536078287810" expanded="true" signature="86:239" ph="{...}" />
+                <marker date="1536028560693" expanded="true" signature="6:93" ph="..." />
+                <marker date="1536028560693" expanded="true" signature="129:683" ph="{...}" />
+                <marker date="1536028560693" expanded="true" signature="185:681" ph="{...}" />
+                <marker date="1536028560693" expanded="true" signature="294:466" ph="{...}" />
+                <marker date="1536028560693" expanded="true" signature="344:456" ph="{...}" />
+                <marker date="1536028560693" expanded="true" signature="499:675" ph="{...}" />
+                <marker date="1536028560693" expanded="true" signature="551:665" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -159,29 +131,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/XamarinLooker/Services/NetworkService.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+            <state relative-caret-position="210">
+              <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
               <folding>
-                <marker date="1536089723811" expanded="false" signature="6:205" ph="..." />
-                <marker date="1536089723811" expanded="true" signature="239:1254" ph="{...}" />
-                <marker date="1536089723811" expanded="true" signature="291:1252" ph="{...}" />
-                <marker date="1536089723811" expanded="true" signature="422:490" ph="{...}" />
-                <marker date="1536089723811" expanded="true" signature="535:1246" ph="{...}" />
-                <marker date="1536089723811" expanded="true" signature="617:723" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/XamarinLooker/ViewModels/MainViewModel.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-              <folding>
-                <marker date="1536070925687" expanded="true" signature="72:199" ph="{...}" />
-                <marker date="1536070925687" expanded="true" signature="121:197" ph="{...}" />
-                <marker date="1536070925687" expanded="true" signature="158:191" ph="{...}" />
+                <marker date="1536113035640" expanded="false" signature="6:205" ph="..." />
+                <marker date="1536113035640" expanded="true" signature="239:1254" ph="{...}" />
+                <marker date="1536113035640" expanded="true" signature="291:1252" ph="{...}" />
+                <marker date="1536113035640" expanded="true" signature="422:490" ph="{...}" />
+                <marker date="1536113035640" expanded="true" signature="535:1246" ph="{...}" />
+                <marker date="1536113035640" expanded="true" signature="617:723" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -190,63 +148,111 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/XamarinLooker/Views/LooksView.xaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-13">
-              <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+            <state relative-caret-position="405">
+              <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
               <folding>
-                <marker date="1536100953909" expanded="true" signature="39:1973" ph="&lt;&lt;ContentPage.Content&gt;     &#10;        &lt;ListView x:Name=&quot;LooksListView&quot; RowHeight=&quot;200&quot; ItemsSource=&quot;{Binding Looks}&quot; SelectedItem=&quot;{Binding SelectedLook, Mode=TwoWay}&quot; &gt;&#10;            &lt;ListView.ItemTemplate &gt;&#10;                &lt;DataTemplate &gt;&#10;                    &lt;ViewCell&gt;&#10;                        &lt;Grid&gt;&#10;                            &lt;Grid.RowDefinitions&gt;&#10;                    &lt;RowDefinition Height=&quot;*&quot;&gt;&lt;/RowDefinition&gt;&#10;                                &lt;RowDefinition Height=&quot;*&quot;&gt;&lt;/RowDefinition&gt;&#10;                                &lt;RowDefinition Height=&quot;*&quot;&gt;&lt;/RowDefinition&gt;&#10;                                &lt;RowDefinition Height=&quot;*&quot;&gt;&lt;/RowDefinition&gt;&#10;                    &#10;                &lt;/Grid.RowDefinitions&gt;&#10;                            &lt;Grid.ColumnDefinitions&gt;&#10;                            &lt;ColumnDefinition Width=&quot;*&quot;&gt;&lt;/ColumnDefinition&gt;&#10;                            &lt;ColumnDefinition Width=&quot;*&quot;&gt;&lt;/ColumnDefinition&gt;&#10;                            &lt;/Grid.ColumnDefinitions&gt;&#10;                          &lt;Label Grid.Row=&quot;0&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding Schema.Name}&quot;&gt;&lt;/Label&gt;&#10;                          &lt;Label Grid.Row=&quot;1&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding LookerDueDate}&quot;&gt;&lt;/Label&gt;&#10;                          &lt;Label Grid.Row=&quot;2&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding LookAddress.FormattedAddress}&quot;&gt;&lt;/Label&gt;&#10;                          &lt;Label Grid.Row=&quot;0&quot; Grid.RowSpan=&quot;4&quot; Grid.Column=&quot;1&quot; Text=&quot;{Binding LookerFee}&quot;&gt;&lt;/Label&gt;&#10;                        &lt;/Grid&gt;&#10;                    &lt;/ViewCell&gt;&#10;                    &#10;                &lt;/DataTemplate&gt;&#10;            &lt;/ListView.ItemTemplate&gt;&#10;        &lt;/ListView&gt;&#10;    &lt;/ContentPage.Content&gt;.../&gt;" />
-                <marker date="1536100953909" expanded="true" signature="369:1958" ph="&lt;&lt;ListView x:Name=&quot;LooksListView&quot; RowHeight=&quot;200&quot; ItemsSource=&quot;{Binding Looks}&quot; SelectedItem=&quot;{Binding SelectedLook, Mode=TwoWay}&quot; &gt;&#10;            &lt;ListView.ItemTemplate &gt;&#10;                &lt;DataTemplate &gt;&#10;                    &lt;ViewCell&gt;&#10;                        &lt;Grid&gt;&#10;                            &lt;Grid.RowDefinitions&gt;&#10;                    &lt;RowDefinition Height=&quot;*&quot;&gt;&lt;/RowDefinition&gt;&#10;                                &lt;RowDefinition Height=&quot;*&quot;&gt;&lt;/RowDefinition&gt;&#10;                                &lt;RowDefinition Height=&quot;*&quot;&gt;&lt;/RowDefinition&gt;&#10;                                &lt;RowDefinition Height=&quot;*&quot;&gt;&lt;/RowDefinition&gt;&#10;                    &#10;                &lt;/Grid.RowDefinitions&gt;&#10;                            &lt;Grid.ColumnDefinitions&gt;&#10;                            &lt;ColumnDefinition Width=&quot;*&quot;&gt;&lt;/ColumnDefinition&gt;&#10;                            &lt;ColumnDefinition Width=&quot;*&quot;&gt;&lt;/ColumnDefinition&gt;&#10;                            &lt;/Grid.ColumnDefinitions&gt;&#10;                          &lt;Label Grid.Row=&quot;0&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding Schema.Name}&quot;&gt;&lt;/Label&gt;&#10;                          &lt;Label Grid.Row=&quot;1&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding LookerDueDate}&quot;&gt;&lt;/Label&gt;&#10;                          &lt;Label Grid.Row=&quot;2&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding LookAddress.FormattedAddress}&quot;&gt;&lt;/Label&gt;&#10;                          &lt;Label Grid.Row=&quot;0&quot; Grid.RowSpan=&quot;4&quot; Grid.Column=&quot;1&quot; Text=&quot;{Binding LookerFee}&quot;&gt;&lt;/Label&gt;&#10;                        &lt;/Grid&gt;&#10;                    &lt;/ViewCell&gt;&#10;                    &#10;                &lt;/DataTemplate&gt;&#10;            &lt;/ListView.ItemTemplate&gt;&#10;        &lt;/ListView&gt;.../&gt;" />
-                <marker date="1536100953909" expanded="true" signature="404:1931" ph="&lt;&lt;ListView.ItemTemplate &gt;&#10;                &lt;DataTemplate &gt;&#10;                    &lt;ViewCell&gt;&#10;                        &lt;Grid&gt;&#10;                            &lt;Grid.RowDefinitions&gt;&#10;                    &lt;RowDefinition Height=&quot;*&quot;&gt;&lt;/RowDefinition&gt;&#10;                                &lt;RowDefinition Height=&quot;*&quot;&gt;&lt;/RowDefinition&gt;&#10;                                &lt;RowDefinition Height=&quot;*&quot;&gt;&lt;/RowDefinition&gt;&#10;                                &lt;RowDefinition Height=&quot;*&quot;&gt;&lt;/RowDefinition&gt;&#10;                    &#10;                &lt;/Grid.RowDefinitions&gt;&#10;                            &lt;Grid.ColumnDefinitions&gt;&#10;                            &lt;ColumnDefinition Width=&quot;*&quot;&gt;&lt;/ColumnDefinition&gt;&#10;                            &lt;ColumnDefinition Width=&quot;*&quot;&gt;&lt;/ColumnDefinition&gt;&#10;                            &lt;/Grid.ColumnDefinitions&gt;&#10;                          &lt;Label Grid.Row=&quot;0&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding Schema.Name}&quot;&gt;&lt;/Label&gt;&#10;                          &lt;Label Grid.Row=&quot;1&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding LookerDueDate}&quot;&gt;&lt;/Label&gt;&#10;                          &lt;Label Grid.Row=&quot;2&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding LookAddress.FormattedAddress}&quot;&gt;&lt;/Label&gt;&#10;                          &lt;Label Grid.Row=&quot;0&quot; Grid.RowSpan=&quot;4&quot; Grid.Column=&quot;1&quot; Text=&quot;{Binding LookerFee}&quot;&gt;&lt;/Label&gt;&#10;                        &lt;/Grid&gt;&#10;                    &lt;/ViewCell&gt;&#10;                    &#10;                &lt;/DataTemplate&gt;&#10;            &lt;/ListView.ItemTemplate&gt;.../&gt;" />
-                <marker date="1536100953909" expanded="true" signature="548:1911" ph="&lt;&lt;DataTemplate &gt;&#10;                    &lt;ViewCell&gt;&#10;                        &lt;Grid&gt;&#10;                            &lt;Grid.RowDefinitions&gt;&#10;                    &lt;RowDefinition Height=&quot;*&quot;&gt;&lt;/RowDefinition&gt;&#10;                                &lt;RowDefinition Height=&quot;*&quot;&gt;&lt;/RowDefinition&gt;&#10;                                &lt;RowDefinition Height=&quot;*&quot;&gt;&lt;/RowDefinition&gt;&#10;                                &lt;RowDefinition Height=&quot;*&quot;&gt;&lt;/RowDefinition&gt;&#10;                    &#10;                &lt;/Grid.RowDefinitions&gt;&#10;                            &lt;Grid.ColumnDefinitions&gt;&#10;                            &lt;ColumnDefinition Width=&quot;*&quot;&gt;&lt;/ColumnDefinition&gt;&#10;                            &lt;ColumnDefinition Width=&quot;*&quot;&gt;&lt;/ColumnDefinition&gt;&#10;                            &lt;/Grid.ColumnDefinitions&gt;&#10;                          &lt;Label Grid.Row=&quot;0&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding Schema.Name}&quot;&gt;&lt;/Label&gt;&#10;                          &lt;Label Grid.Row=&quot;1&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding LookerDueDate}&quot;&gt;&lt;/Label&gt;&#10;                          &lt;Label Grid.Row=&quot;2&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding LookAddress.FormattedAddress}&quot;&gt;&lt;/Label&gt;&#10;                          &lt;Label Grid.Row=&quot;0&quot; Grid.RowSpan=&quot;4&quot; Grid.Column=&quot;1&quot; Text=&quot;{Binding LookerFee}&quot;&gt;&lt;/Label&gt;&#10;                        &lt;/Grid&gt;&#10;                    &lt;/ViewCell&gt;&#10;                    &#10;                &lt;/DataTemplate&gt;.../&gt;" />
-                <marker date="1536100953909" expanded="true" signature="589:1874" ph="&lt;&lt;ViewCell&gt;&#10;                        &lt;Grid&gt;&#10;                            &lt;Grid.RowDefinitions&gt;&#10;                    &lt;RowDefinition Height=&quot;*&quot;&gt;&lt;/RowDefinition&gt;&#10;                                &lt;RowDefinition Height=&quot;*&quot;&gt;&lt;/RowDefinition&gt;&#10;                                &lt;RowDefinition Height=&quot;*&quot;&gt;&lt;/RowDefinition&gt;&#10;                                &lt;RowDefinition Height=&quot;*&quot;&gt;&lt;/RowDefinition&gt;&#10;                    &#10;                &lt;/Grid.RowDefinitions&gt;&#10;                            &lt;Grid.ColumnDefinitions&gt;&#10;                            &lt;ColumnDefinition Width=&quot;*&quot;&gt;&lt;/ColumnDefinition&gt;&#10;                            &lt;ColumnDefinition Width=&quot;*&quot;&gt;&lt;/ColumnDefinition&gt;&#10;                            &lt;/Grid.ColumnDefinitions&gt;&#10;                          &lt;Label Grid.Row=&quot;0&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding Schema.Name}&quot;&gt;&lt;/Label&gt;&#10;                          &lt;Label Grid.Row=&quot;1&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding LookerDueDate}&quot;&gt;&lt;/Label&gt;&#10;                          &lt;Label Grid.Row=&quot;2&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding LookAddress.FormattedAddress}&quot;&gt;&lt;/Label&gt;&#10;                          &lt;Label Grid.Row=&quot;0&quot; Grid.RowSpan=&quot;4&quot; Grid.Column=&quot;1&quot; Text=&quot;{Binding LookerFee}&quot;&gt;&lt;/Label&gt;&#10;                        &lt;/Grid&gt;&#10;                    &lt;/ViewCell&gt;.../&gt;" />
-                <marker date="1536100953909" expanded="true" signature="625:1821" ph="&lt;&lt;Grid&gt;&#10;                            &lt;Grid.RowDefinitions&gt;&#10;                    &lt;RowDefinition Height=&quot;*&quot;&gt;&lt;/RowDefinition&gt;&#10;                                &lt;RowDefinition Height=&quot;*&quot;&gt;&lt;/RowDefinition&gt;&#10;                                &lt;RowDefinition Height=&quot;*&quot;&gt;&lt;/RowDefinition&gt;&#10;                                &lt;RowDefinition Height=&quot;*&quot;&gt;&lt;/RowDefinition&gt;&#10;                    &#10;                &lt;/Grid.RowDefinitions&gt;&#10;                            &lt;Grid.ColumnDefinitions&gt;&#10;                            &lt;ColumnDefinition Width=&quot;*&quot;&gt;&lt;/ColumnDefinition&gt;&#10;                            &lt;ColumnDefinition Width=&quot;*&quot;&gt;&lt;/ColumnDefinition&gt;&#10;                            &lt;/Grid.ColumnDefinitions&gt;&#10;                          &lt;Label Grid.Row=&quot;0&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding Schema.Name}&quot;&gt;&lt;/Label&gt;&#10;                          &lt;Label Grid.Row=&quot;1&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding LookerDueDate}&quot;&gt;&lt;/Label&gt;&#10;                          &lt;Label Grid.Row=&quot;2&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding LookAddress.FormattedAddress}&quot;&gt;&lt;/Label&gt;&#10;                          &lt;Label Grid.Row=&quot;0&quot; Grid.RowSpan=&quot;4&quot; Grid.Column=&quot;1&quot; Text=&quot;{Binding LookerFee}&quot;&gt;&lt;/Label&gt;&#10;                        &lt;/Grid&gt;.../&gt;" />
-                <marker date="1536100953909" expanded="true" signature="660:1789" ph="&lt;&lt;Grid.RowDefinitions&gt;&#10;                    &lt;RowDefinition Height=&quot;*&quot;&gt;&lt;/RowDefinition&gt;&#10;                                &lt;RowDefinition Height=&quot;*&quot;&gt;&lt;/RowDefinition&gt;&#10;                                &lt;RowDefinition Height=&quot;*&quot;&gt;&lt;/RowDefinition&gt;&#10;                                &lt;RowDefinition Height=&quot;*&quot;&gt;&lt;/RowDefinition&gt;&#10;                    &#10;                &lt;/Grid.RowDefinitions&gt; &lt;Grid.ColumnDefinitions&gt;&#10;                            &lt;ColumnDefinition Width=&quot;*&quot;&gt;&lt;/ColumnDefinition&gt;&#10;                            &lt;ColumnDefinition Width=&quot;*&quot;&gt;&lt;/ColumnDefinition&gt;&#10;                            &lt;/Grid.ColumnDefinitions&gt; &lt;Label Grid.Row=&quot;0&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding Schema.Name}&quot;&gt;&lt;/Label&gt; &lt;Label Grid.Row=&quot;1&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding LookerDueDate}&quot;&gt;&lt;/Label&gt; &lt;Label Grid.Row=&quot;2&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding LookAddress.FormattedAddress}&quot;&gt;&lt;/Label&gt; &lt;Label Grid.Row=&quot;0&quot; Grid.RowSpan=&quot;4&quot; Grid.Column=&quot;1&quot; Text=&quot;{Binding LookerFee}&quot;&gt;&lt;/Label&gt;.../&gt;" />
-                <marker date="1536100953909" expanded="true" signature="695:1064" ph="&lt;&lt;RowDefinition Height=&quot;*&quot;&gt;&lt;/RowDefinition&gt; &lt;RowDefinition Height=&quot;*&quot;&gt;&lt;/RowDefinition&gt; &lt;RowDefinition Height=&quot;*&quot;&gt;&lt;/RowDefinition&gt; &lt;RowDefinition Height=&quot;*&quot;&gt;&lt;/RowDefinition&gt;.../&gt;" />
-                <marker date="1536100953909" expanded="true" signature="1093:1323" ph="&lt;&lt;ColumnDefinition Width=&quot;*&quot;&gt;&lt;/ColumnDefinition&gt; &lt;ColumnDefinition Width=&quot;*&quot;&gt;&lt;/ColumnDefinition&gt;.../&gt;" />
+                <marker date="1536115065696" expanded="true" signature="39:1952" ph="&lt;&lt;ContentPage.Content&gt;&#10;        &lt;ListView x:Name=&quot;LooksListView&quot; RowHeight=&quot;100&quot; ItemsSource=&quot;{Binding Looks}&quot;&#10;                  SelectedItem=&quot;{Binding SelectedLook, Mode=TwoWay}&quot;&gt;&#10;            &lt;ListView.ItemTemplate&gt;&#10;                &lt;DataTemplate&gt;&#10;                    &lt;ViewCell&gt;&#10;                        &lt;Grid Padding=&quot;5&quot;&gt;&#10;                            &lt;Grid.RowDefinitions&gt;&#10;                                &lt;RowDefinition Height=&quot;20&quot; /&gt;&#10;                                &lt;RowDefinition Height=&quot;20&quot; /&gt;&#10;                                &lt;RowDefinition Height=&quot;20&quot; /&gt;&#10;                            &lt;/Grid.RowDefinitions&gt;&#10;                            &lt;Grid.ColumnDefinitions&gt;&#10;                                &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;                                &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;                            &lt;/Grid.ColumnDefinitions&gt;&#10;                            &lt;Label Grid.Row=&quot;0&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding Schema.Name}&quot; /&gt;&#10;                            &lt;Label Grid.Row=&quot;1&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding LookerDueDate}&quot; /&gt;&#10;                            &lt;Label Grid.Row=&quot;2&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding LookAddress.FormattedAddress}&quot; /&gt;&#10;                            &lt;Label Grid.Row=&quot;0&quot; FontAttributes=&quot;Bold&quot; Grid.RowSpan=&quot;3&quot; HorizontalTextAlignment=&quot;End&quot;&#10;                                   VerticalTextAlignment=&quot;Center&quot; Grid.Column=&quot;1&quot; Text=&quot;{Binding LookerFee}&quot; /&gt;&#10;                        &lt;/Grid&gt;&#10;                    &lt;/ViewCell&gt;&#10;                &lt;/DataTemplate&gt;&#10;            &lt;/ListView.ItemTemplate&gt;&#10;        &lt;/ListView&gt;&#10;    &lt;/ContentPage.Content&gt;.../&gt;" />
+                <marker date="1536115065696" expanded="true" signature="382:1937" ph="&lt;&lt;ListView x:Name=&quot;LooksListView&quot; RowHeight=&quot;100&quot; ItemsSource=&quot;{Binding Looks}&quot;&#10;                  SelectedItem=&quot;{Binding SelectedLook, Mode=TwoWay}&quot;&gt;&#10;            &lt;ListView.ItemTemplate&gt;&#10;                &lt;DataTemplate&gt;&#10;                    &lt;ViewCell&gt;&#10;                        &lt;Grid Padding=&quot;5&quot;&gt;&#10;                            &lt;Grid.RowDefinitions&gt;&#10;                                &lt;RowDefinition Height=&quot;20&quot; /&gt;&#10;                                &lt;RowDefinition Height=&quot;20&quot; /&gt;&#10;                                &lt;RowDefinition Height=&quot;20&quot; /&gt;&#10;                            &lt;/Grid.RowDefinitions&gt;&#10;                            &lt;Grid.ColumnDefinitions&gt;&#10;                                &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;                                &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;                            &lt;/Grid.ColumnDefinitions&gt;&#10;                            &lt;Label Grid.Row=&quot;0&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding Schema.Name}&quot; /&gt;&#10;                            &lt;Label Grid.Row=&quot;1&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding LookerDueDate}&quot; /&gt;&#10;                            &lt;Label Grid.Row=&quot;2&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding LookAddress.FormattedAddress}&quot; /&gt;&#10;                            &lt;Label Grid.Row=&quot;0&quot; FontAttributes=&quot;Bold&quot; Grid.RowSpan=&quot;3&quot; HorizontalTextAlignment=&quot;End&quot;&#10;                                   VerticalTextAlignment=&quot;Center&quot; Grid.Column=&quot;1&quot; Text=&quot;{Binding LookerFee}&quot; /&gt;&#10;                        &lt;/Grid&gt;&#10;                    &lt;/ViewCell&gt;&#10;                &lt;/DataTemplate&gt;&#10;            &lt;/ListView.ItemTemplate&gt;&#10;        &lt;/ListView&gt;.../&gt;" />
+                <marker date="1536115065696" expanded="true" signature="412:1910" ph="&lt;&lt;ListView.ItemTemplate&gt;&#10;                &lt;DataTemplate&gt;&#10;                    &lt;ViewCell&gt;&#10;                        &lt;Grid Padding=&quot;5&quot;&gt;&#10;                            &lt;Grid.RowDefinitions&gt;&#10;                                &lt;RowDefinition Height=&quot;20&quot; /&gt;&#10;                                &lt;RowDefinition Height=&quot;20&quot; /&gt;&#10;                                &lt;RowDefinition Height=&quot;20&quot; /&gt;&#10;                            &lt;/Grid.RowDefinitions&gt;&#10;                            &lt;Grid.ColumnDefinitions&gt;&#10;                                &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;                                &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;                            &lt;/Grid.ColumnDefinitions&gt;&#10;                            &lt;Label Grid.Row=&quot;0&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding Schema.Name}&quot; /&gt;&#10;                            &lt;Label Grid.Row=&quot;1&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding LookerDueDate}&quot; /&gt;&#10;                            &lt;Label Grid.Row=&quot;2&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding LookAddress.FormattedAddress}&quot; /&gt;&#10;                            &lt;Label Grid.Row=&quot;0&quot; FontAttributes=&quot;Bold&quot; Grid.RowSpan=&quot;3&quot; HorizontalTextAlignment=&quot;End&quot;&#10;                                   VerticalTextAlignment=&quot;Center&quot; Grid.Column=&quot;1&quot; Text=&quot;{Binding LookerFee}&quot; /&gt;&#10;                        &lt;/Grid&gt;&#10;                    &lt;/ViewCell&gt;&#10;                &lt;/DataTemplate&gt;&#10;            &lt;/ListView.ItemTemplate&gt;.../&gt;" />
+                <marker date="1536115065696" expanded="true" signature="573:1890" ph="&lt;&lt;DataTemplate&gt;&#10;                    &lt;ViewCell&gt;&#10;                        &lt;Grid Padding=&quot;5&quot;&gt;&#10;                            &lt;Grid.RowDefinitions&gt;&#10;                                &lt;RowDefinition Height=&quot;20&quot; /&gt;&#10;                                &lt;RowDefinition Height=&quot;20&quot; /&gt;&#10;                                &lt;RowDefinition Height=&quot;20&quot; /&gt;&#10;                            &lt;/Grid.RowDefinitions&gt;&#10;                            &lt;Grid.ColumnDefinitions&gt;&#10;                                &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;                                &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;                            &lt;/Grid.ColumnDefinitions&gt;&#10;                            &lt;Label Grid.Row=&quot;0&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding Schema.Name}&quot; /&gt;&#10;                            &lt;Label Grid.Row=&quot;1&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding LookerDueDate}&quot; /&gt;&#10;                            &lt;Label Grid.Row=&quot;2&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding LookAddress.FormattedAddress}&quot; /&gt;&#10;                            &lt;Label Grid.Row=&quot;0&quot; FontAttributes=&quot;Bold&quot; Grid.RowSpan=&quot;3&quot; HorizontalTextAlignment=&quot;End&quot;&#10;                                   VerticalTextAlignment=&quot;Center&quot; Grid.Column=&quot;1&quot; Text=&quot;{Binding LookerFee}&quot; /&gt;&#10;                        &lt;/Grid&gt;&#10;                    &lt;/ViewCell&gt;&#10;                &lt;/DataTemplate&gt;.../&gt;" />
+                <marker date="1536115065696" expanded="true" signature="613:1853" ph="&lt;&lt;ViewCell&gt;&#10;                        &lt;Grid Padding=&quot;5&quot;&gt;&#10;                            &lt;Grid.RowDefinitions&gt;&#10;                                &lt;RowDefinition Height=&quot;20&quot; /&gt;&#10;                                &lt;RowDefinition Height=&quot;20&quot; /&gt;&#10;                                &lt;RowDefinition Height=&quot;20&quot; /&gt;&#10;                            &lt;/Grid.RowDefinitions&gt;&#10;                            &lt;Grid.ColumnDefinitions&gt;&#10;                                &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;                                &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;                            &lt;/Grid.ColumnDefinitions&gt;&#10;                            &lt;Label Grid.Row=&quot;0&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding Schema.Name}&quot; /&gt;&#10;                            &lt;Label Grid.Row=&quot;1&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding LookerDueDate}&quot; /&gt;&#10;                            &lt;Label Grid.Row=&quot;2&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding LookAddress.FormattedAddress}&quot; /&gt;&#10;                            &lt;Label Grid.Row=&quot;0&quot; FontAttributes=&quot;Bold&quot; Grid.RowSpan=&quot;3&quot; HorizontalTextAlignment=&quot;End&quot;&#10;                                   VerticalTextAlignment=&quot;Center&quot; Grid.Column=&quot;1&quot; Text=&quot;{Binding LookerFee}&quot; /&gt;&#10;                        &lt;/Grid&gt;&#10;                    &lt;/ViewCell&gt;.../&gt;" />
+                <marker date="1536115065696" expanded="true" signature="648:1821" ph="&lt;&lt;Grid Padding=&quot;5&quot;&gt;&#10;                            &lt;Grid.RowDefinitions&gt;&#10;                                &lt;RowDefinition Height=&quot;20&quot; /&gt;&#10;                                &lt;RowDefinition Height=&quot;20&quot; /&gt;&#10;                                &lt;RowDefinition Height=&quot;20&quot; /&gt;&#10;                            &lt;/Grid.RowDefinitions&gt;&#10;                            &lt;Grid.ColumnDefinitions&gt;&#10;                                &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;                                &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;                            &lt;/Grid.ColumnDefinitions&gt;&#10;                            &lt;Label Grid.Row=&quot;0&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding Schema.Name}&quot; /&gt;&#10;                            &lt;Label Grid.Row=&quot;1&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding LookerDueDate}&quot; /&gt;&#10;                            &lt;Label Grid.Row=&quot;2&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding LookAddress.FormattedAddress}&quot; /&gt;&#10;                            &lt;Label Grid.Row=&quot;0&quot; FontAttributes=&quot;Bold&quot; Grid.RowSpan=&quot;3&quot; HorizontalTextAlignment=&quot;End&quot;&#10;                                   VerticalTextAlignment=&quot;Center&quot; Grid.Column=&quot;1&quot; Text=&quot;{Binding LookerFee}&quot; /&gt;&#10;                        &lt;/Grid&gt;.../&gt;" />
+                <marker date="1536115065696" expanded="true" signature="683:1789" ph="&lt;&lt;Grid.RowDefinitions&gt;&#10;                                &lt;RowDefinition Height=&quot;20&quot; /&gt;&#10;                                &lt;RowDefinition Height=&quot;20&quot; /&gt;&#10;                                &lt;RowDefinition Height=&quot;20&quot; /&gt;&#10;                            &lt;/Grid.RowDefinitions&gt; &lt;Grid.ColumnDefinitions&gt;&#10;                                &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;                                &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;                            &lt;/Grid.ColumnDefinitions&gt; &lt;Label Grid.Row=&quot;0&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding Schema.Name}&quot; /&gt; &lt;Label Grid.Row=&quot;1&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding LookerDueDate}&quot; /&gt; &lt;Label Grid.Row=&quot;2&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding LookAddress.FormattedAddress}&quot; /&gt; &lt;Label Grid.Row=&quot;0&quot; FontAttributes=&quot;Bold&quot; Grid.RowSpan=&quot;3&quot; HorizontalTextAlignment=&quot;End&quot;&#10;                                   VerticalTextAlignment=&quot;Center&quot; Grid.Column=&quot;1&quot; Text=&quot;{Binding LookerFee}&quot; /&gt;.../&gt;" />
+                <marker date="1536115065696" expanded="true" signature="730:988" ph="&lt;&lt;RowDefinition Height=&quot;20&quot; /&gt; &lt;RowDefinition Height=&quot;20&quot; /&gt; &lt;RowDefinition Height=&quot;20&quot; /&gt;.../&gt;" />
+                <marker date="1536115065696" expanded="true" signature="1017:1221" ph="&lt;&lt;ColumnDefinition Width=&quot;*&quot; /&gt; &lt;ColumnDefinition Width=&quot;*&quot; /&gt;.../&gt;" />
+                <marker date="1536115065696" expanded="true" signature="1557:1757" ph="&lt;.../&gt;" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/XamarinLooker/Services/INetworkService.cs">
+        <entry file="file://$PROJECT_DIR$/XamarinLooker/ViewModels/Base/ViewModelLocator.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+            <state relative-caret-position="243">
+              <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
               <folding>
-                <marker date="1536078287806" expanded="false" signature="6:56" ph="..." />
-                <marker date="1536078287806" expanded="true" signature="90:176" ph="{...}" />
-                <marker date="1536078287806" expanded="true" signature="129:174" ph="{...}" />
+                <marker date="1536113035643" expanded="false" signature="7:154" ph="..." />
+                <marker date="1536113035643" expanded="true" signature="195:2543" ph="{...}" />
+                <marker date="1536113035643" expanded="true" signature="238:2541" ph="{...}" />
+                <marker date="1536113035643" expanded="true" signature="620:728" ph="{...}" />
+                <marker date="1536113035643" expanded="true" signature="814:916" ph="{...}" />
+                <marker date="1536113035643" expanded="true" signature="951:1621" ph="{...}" />
+                <marker date="1536113035643" expanded="true" signature="1675:1739" ph="{...}" />
+                <marker date="1536113035643" expanded="true" signature="1854:2535" ph="{...}" />
+                <marker date="1536113035643" expanded="true" signature="1938:1990" ph="{...}" />
+                <marker date="1536113035643" expanded="true" signature="2365:2417" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/XamarinLooker/Services/ISettingsService.cs">
+        <entry file="file://$PROJECT_DIR$/XamarinLooker/ViewModels/LooksViewModel.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+            <state relative-caret-position="479">
+              <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
               <folding>
-                <marker date="1536078287803" expanded="true" signature="32:206" ph="{...}" />
-                <marker date="1536078287803" expanded="true" signature="72:204" ph="{...}" />
+                <marker date="1536113035645" expanded="true" signature="6:161" ph="..." />
+                <marker date="1536113035645" expanded="true" signature="197:3015" ph="{...}" />
+                <marker date="1536113035645" expanded="true" signature="247:3013" ph="{...}" />
+                <marker date="1536113035645" expanded="true" signature="508:687" ph="{...}" />
+                <marker date="1536113035645" expanded="true" signature="564:676" ph="{...}" />
+                <marker date="1536113035645" expanded="true" signature="721:1004" ph="{...}" />
+                <marker date="1536113035645" expanded="true" signature="782:994" ph="{...}" />
+                <marker date="1536113035645" expanded="true" signature="1101:1269" ph="{...}" />
+                <marker date="1536113035645" expanded="true" signature="1343:1456" ph="{...}" />
+                <marker date="1536113035645" expanded="true" signature="1523:3007" ph="{...}" />
+                <marker date="1536113035645" expanded="true" signature="1579:2863" ph="{...}" />
+                <marker date="1536113035645" expanded="true" signature="1666:2848" ph="{...}" />
+                <marker date="1536113035645" expanded="true" signature="1717:2253" ph="{...}" />
+                <marker date="1536113035645" expanded="true" signature="1958:2231" ph="{...}" />
+                <marker date="1536113035645" expanded="true" signature="2043:2205" ph="{...}" />
+                <marker date="1536113035645" expanded="true" signature="2304:2830" ph="{...}" />
+                <marker date="1536113035645" expanded="true" signature="2535:2808" ph="{...}" />
+                <marker date="1536113035645" expanded="true" signature="2620:2782" ph="{...}" />
+                <marker date="1536113035645" expanded="true" signature="2880:2997" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/XamarinLooker/ViewModels/LookDetailsViewModel.cs">
+        <entry file="file://$PROJECT_DIR$/XamarinLooker/Model/LookAddress.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+            <state relative-caret-position="330">
+              <caret line="22" column="38" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="38" />
               <folding>
-                <marker date="1536070925686" expanded="false" signature="6:93" ph="..." />
-                <marker date="1536070925686" expanded="true" signature="129:683" ph="{...}" />
-                <marker date="1536070925686" expanded="true" signature="185:681" ph="{...}" />
-                <marker date="1536070925686" expanded="true" signature="294:466" ph="{...}" />
-                <marker date="1536070925686" expanded="true" signature="344:456" ph="{...}" />
-                <marker date="1536070925686" expanded="true" signature="499:675" ph="{...}" />
-                <marker date="1536070925686" expanded="true" signature="551:665" ph="{...}" />
+                <marker date="1536113035636" expanded="true" signature="53:658" ph="{...}" />
+                <marker date="1536113035636" expanded="true" signature="84:656" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/XamarinLooker/Services/INavigationService.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <marker date="1535761089489" expanded="false" signature="6:66" ph="..." />
+                <marker date="1535761089489" expanded="true" signature="100:498" ph="{...}" />
+                <marker date="1535761089489" expanded="true" signature="142:496" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/XamarinLooker/ViewModels/AuthenticateViewModel.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+              <folding>
+                <marker date="1536113035643" expanded="true" signature="1738:1765" ph="{...}" />
+                <marker date="1536113035643" expanded="true" signature="1738:1775" ph="{...}" />
+                <marker date="1536113035643" expanded="true" signature="1738:1781" ph="{...}" />
+                <marker date="1536113035643" expanded="true" signature="1738:1783" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -255,32 +261,45 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/XamarinLooker/Services/NavigationService.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="119" column="13" selection-start-line="119" selection-start-column="13" selection-end-line="119" selection-end-column="13" />
+            <state relative-caret-position="257">
+              <caret line="94" column="17" selection-start-line="94" selection-start-column="17" selection-end-line="94" selection-end-column="17" />
               <folding>
-                <marker date="1536102044335" expanded="false" signature="6:213" ph="..." />
-                <marker date="1536102044335" expanded="true" signature="247:4146" ph="{...}" />
-                <marker date="1536102044335" expanded="true" signature="305:4144" ph="{...}" />
-                <marker date="1536102044335" expanded="true" signature="423:754" ph="{...}" />
-                <marker date="1536102044335" expanded="true" signature="449:744" ph="{...}" />
-                <marker date="1536102044335" expanded="true" signature="822:890" ph="{...}" />
-                <marker date="1536102044335" expanded="true" signature="929:1203" ph="{...}" />
-                <marker date="1536102044335" expanded="true" signature="1044:1138" ph="{...}" />
-                <marker date="1536102044335" expanded="true" signature="1287:1377" ph="{...}" />
-                <marker date="1536102044335" expanded="true" signature="1477:1572" ph="{...}" />
-                <marker date="1536102044335" expanded="true" signature="1624:1984" ph="{...}" />
-                <marker date="1536102044335" expanded="true" signature="1750:1931" ph="{...}" />
-                <marker date="1536102044335" expanded="true" signature="2028:2451" ph="{...}" />
-                <marker date="1536102044335" expanded="true" signature="2117:2398" ph="{...}" />
-                <marker date="1536102044335" expanded="true" signature="2219:2384" ph="{...}" />
-                <marker date="1536102044335" expanded="true" signature="2541:3272" ph="{...}" />
-                <marker date="1536102044335" expanded="true" signature="2655:2762" ph="{...}" />
-                <marker date="1536102044335" expanded="true" signature="2779:3176" ph="{...}" />
-                <marker date="1536102044335" expanded="true" signature="2928:3022" ph="{...}" />
-                <marker date="1536102044335" expanded="true" signature="3043:3162" ph="{...}" />
-                <marker date="1536102044335" expanded="true" signature="3338:3740" ph="{...}" />
-                <marker date="1536102044335" expanded="true" signature="3811:4138" ph="{...}" />
-                <marker date="1536102044335" expanded="true" signature="3922:4035" ph="{...}" />
+                <marker date="1536113035640" expanded="false" signature="6:213" ph="..." />
+                <marker date="1536113035640" expanded="true" signature="247:4146" ph="{...}" />
+                <marker date="1536113035640" expanded="true" signature="305:4144" ph="{...}" />
+                <marker date="1536113035640" expanded="true" signature="423:754" ph="{...}" />
+                <marker date="1536113035640" expanded="true" signature="449:744" ph="{...}" />
+                <marker date="1536113035640" expanded="true" signature="822:890" ph="{...}" />
+                <marker date="1536113035640" expanded="true" signature="929:1203" ph="{...}" />
+                <marker date="1536113035640" expanded="true" signature="1044:1138" ph="{...}" />
+                <marker date="1536113035640" expanded="true" signature="1287:1377" ph="{...}" />
+                <marker date="1536113035640" expanded="true" signature="1477:1572" ph="{...}" />
+                <marker date="1536113035640" expanded="true" signature="1624:1984" ph="{...}" />
+                <marker date="1536113035640" expanded="true" signature="1750:1931" ph="{...}" />
+                <marker date="1536113035640" expanded="true" signature="2028:2451" ph="{...}" />
+                <marker date="1536113035640" expanded="true" signature="2117:2398" ph="{...}" />
+                <marker date="1536113035640" expanded="true" signature="2219:2384" ph="{...}" />
+                <marker date="1536113035640" expanded="true" signature="2541:3272" ph="{...}" />
+                <marker date="1536113035640" expanded="true" signature="2655:2762" ph="{...}" />
+                <marker date="1536113035640" expanded="true" signature="2779:3176" ph="{...}" />
+                <marker date="1536113035640" expanded="true" signature="2928:3022" ph="{...}" />
+                <marker date="1536113035640" expanded="true" signature="3043:3162" ph="{...}" />
+                <marker date="1536113035640" expanded="true" signature="3338:3740" ph="{...}" />
+                <marker date="1536113035640" expanded="true" signature="3811:4138" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/XamarinLooker/Services/ISettingsService.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+              <folding>
+                <marker date="1536113035638" expanded="true" signature="32:206" ph="{...}" />
+                <marker date="1536113035638" expanded="true" signature="72:167" ph="{...}" />
+                <marker date="1536113035638" expanded="true" signature="184:204" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -300,42 +319,42 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/XamarinLooker/Model/UserInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/XamarinLooker/Model/Look.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/XamarinLooker/ExtensionHelpers/DateFragmentExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/XamarinLooker/Services/INetworkService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/XamarinLooker/Services/SettingsService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/XamarinLooker/Model/AuthenticationConfig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/XamarinLooker/Services/NetworkService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/XamarinLooker/Views/MainView.xaml.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/XamarinLooker/Model/DateFragments.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/XamarinLooker/Views/CustomNavigationView.xaml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/XamarinLooker/Model/DueDates.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/XamarinLooker/Views/CustomNavigationView.xaml.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/XamarinLooker/Model/Schema.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/XamarinLooker/Views/MainView.xaml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/XamarinLooker/Views/AuthenticateView.xaml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/XamarinLooker/Views/LookDetailsView.xaml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/XamarinLooker/Views/LooksView.xaml.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/XamarinLooker/Views/LooksView.xaml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/XamarinLooker/Views/AuthenticateView.xaml.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/XamarinLooker/Services/INavigationService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/XamarinLooker/Services/NavigationService.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/XamarinLooker/Services/NetworkService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/XamarinLooker/Services/IAuthenticationService.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/XamarinLooker/Services/INetworkService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/XamarinLooker/Services/ISettingsService.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/XamarinLooker/ViewModels/LookDetailsViewModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/XamarinLooker/ViewModels/AuthenticateViewModel.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/XamarinLooker/ViewModels/LooksViewModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/XamarinLooker/ViewModels/MainViewModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/XamarinLooker/ViewModels/Base/ExtendedBindableObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/XamarinLooker/ViewModels/Base/ViewModelLocator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/XamarinLooker/ViewModels/Base/ViewModelBase.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/XamarinLooker.iOS/Main.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/XamarinLooker/Model/LookAddress.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/XamarinLooker/Views/LookDetailsView.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/XamarinLooker/Views/LooksView.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/XamarinLooker/Views/LooksView.xaml.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/XamarinLooker/ExtensionHelpers/DateFragmentExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/XamarinLooker/ExtensionHelpers/StringExtensions.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/XamarinLooker/Model/UserInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/XamarinLooker.iOS/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/XamarinLooker/App.xaml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/XamarinLooker/Model/Schema.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/XamarinLooker/ViewModels/LooksViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/XamarinLooker/Model/LookAddress.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/XamarinLooker/App.xaml.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/XamarinLooker/Services/SettingsService.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/XamarinLooker/Model/AuthenticationConfig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/XamarinLooker/ViewModels/LookDetailsViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/XamarinLooker/Model/DueDates.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/XamarinLooker/Model/DateFragments.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -348,7 +367,6 @@
         <option value="$PROJECT_DIR$/XamarinLooker/ViewModels/MainViewModel.cs" />
         <option value="$PROJECT_DIR$/XamarinLooker/XamarinLooker.csproj" />
         <option value="$PROJECT_DIR$/XamarinLooker/App.xaml.cs" />
-        <option value="$PROJECT_DIR$/XamarinLooker/Views/LooksView.xaml" />
         <option value="$PROJECT_DIR$/XamarinLooker/Views/LookDetailsView.xaml" />
         <option value="$PROJECT_DIR$/XamarinLooker/ViewModels/LookDetailsViewModel.cs" />
         <option value="$PROJECT_DIR$/XamarinLooker/Services/ISettingsService.cs" />
@@ -367,6 +385,7 @@
         <option value="$PROJECT_DIR$/XamarinLooker/ViewModels/AuthenticateViewModel.cs" />
         <option value="$PROJECT_DIR$/XamarinLooker/ViewModels/UserInfo.cs" />
         <option value="$PROJECT_DIR$/XamarinLooker/Model/UserInfo.cs" />
+        <option value="$PROJECT_DIR$/XamarinLooker/Views/LooksView.xaml" />
       </list>
     </option>
   </component>
@@ -389,6 +408,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -400,12 +420,6 @@
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="XamarinLooker" type="24d0babc:SolutionExplorerModelNode" />
               <item name="XamarinLooker" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="XamarinLooker" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="XamarinLooker" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="ExtensionHelpers" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
@@ -431,22 +445,11 @@
               <item name="XamarinLooker" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Views" type="24d0babc:SolutionExplorerModelNode" />
             </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="XamarinLooker" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="XamarinLooker.Android" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="XamarinLooker" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="XamarinLooker.iOS" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
           </expand>
           <select />
         </subPane>
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -466,14 +469,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Xamarin.Android.Android Default">
+  <component name="RunManager" selected="Xamarin.iOS.iOS Default">
     <configuration name="Android Default" type="XamarinAndroidProject" factoryName="Xamarin.Android">
       <option name="PROJECT_PATH" value="$PROJECT_DIR$/XamarinLooker.Android/XamarinLooker.Android.csproj" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="DEPLOY_BEHAVIOUR_NAME" value="Default" />
       <option name="DEPLOY_TARGET_BEHAVIOUR_NAME" value="Emulator" />
-      <option name="DEFAULT_EMULATOR_TO_RUN" value="pixel_xl" />
-      <option name="DEFAULT_DEVICE_TO_RUN" value="" />
+      <option name="DEFAULT_EMULATOR_TO_RUN" value="" />
+      <option name="DEFAULT_DEVICE_TO_RUN" value="pixel" />
       <method v="2">
         <option name="Build" enabled="true" />
       </method>
@@ -519,7 +522,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13474000" />
+    <option name="totallyTimeSpent" value="15471000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -531,16 +534,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="53" width="1400" height="837" extended-state="0" />
+    <frame x="1506" y="19" width="1400" height="837" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26804122" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2533137" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32885906" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32885906" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32885906" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -549,7 +552,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unit Tests" order="11" />
-      <window_info anchor="bottom" id="Terminal" order="12" weight="0.32885906" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.33020133" />
       <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="14" weight="0.32885906" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -695,33 +698,46 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+          <folding>
+            <marker date="1536028068955" expanded="true" signature="39:555" ph="&lt;&lt;ContentPage.Content&gt;     &#10;        &lt;StackLayout&gt;&#10;            &lt;Label Text=&quot;{Binding LookDetails.JobNumber}&quot;&gt;&lt;/Label&gt;&#10;        &lt;/StackLayout&gt;&#10;    &lt;/ContentPage.Content&gt;.../&gt;" />
+            <marker date="1536028068955" expanded="true" signature="375:540" ph="&lt;&lt;StackLayout&gt;&#10;            &lt;Label Text=&quot;{Binding LookDetails.JobNumber}&quot;&gt;&lt;/Label&gt;&#10;        &lt;/StackLayout&gt;.../&gt;" />
+            <marker date="1536028068955" expanded="true" signature="410:513" ph="&lt;&lt;Label Text=&quot;{Binding LookDetails.JobNumber}&quot;&gt;&lt;/Label&gt;.../&gt;" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/XamarinLooker/ViewModels/Base/ViewModelBase.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
+        <state relative-caret-position="178">
           <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/XamarinLooker/ViewModels/LooksViewModel.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="88" column="16" selection-start-line="88" selection-start-column="16" selection-end-line="88" selection-end-column="16" />
           <folding>
-            <marker date="1536100846936" expanded="false" signature="6:161" ph="..." />
-            <marker date="1536100846936" expanded="true" signature="247:3013" ph="{...}" />
-            <marker date="1536100846936" expanded="true" signature="2981:2997" ph="{...}" />
-            <marker date="1536100846936" expanded="true" signature="2981:3007" ph="{...}" />
+            <marker date="1535762022892" expanded="false" signature="6:59" ph="..." />
+            <marker date="1535762022892" expanded="true" signature="100:749" ph="{...}" />
+            <marker date="1535762022892" expanded="true" signature="167:747" ph="{...}" />
+            <marker date="1535762022892" expanded="true" signature="239:339" ph="{...}" />
+            <marker date="1535762022892" expanded="true" signature="367:545" ph="{...}" />
+            <marker date="1535762022892" expanded="true" signature="422:535" ph="{...}" />
+            <marker date="1535762022892" expanded="true" signature="678:741" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/XamarinLooker/ViewModels/Base/ViewModelLocator.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="46" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
+        <state relative-caret-position="243">
+          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+          <folding>
+            <marker date="1536113035643" expanded="false" signature="7:154" ph="..." />
+            <marker date="1536113035643" expanded="true" signature="195:2543" ph="{...}" />
+            <marker date="1536113035643" expanded="true" signature="238:2541" ph="{...}" />
+            <marker date="1536113035643" expanded="true" signature="620:728" ph="{...}" />
+            <marker date="1536113035643" expanded="true" signature="814:916" ph="{...}" />
+            <marker date="1536113035643" expanded="true" signature="951:1621" ph="{...}" />
+            <marker date="1536113035643" expanded="true" signature="1675:1739" ph="{...}" />
+            <marker date="1536113035643" expanded="true" signature="1854:2535" ph="{...}" />
+            <marker date="1536113035643" expanded="true" signature="1938:1990" ph="{...}" />
+            <marker date="1536113035643" expanded="true" signature="2365:2417" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -729,12 +745,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
-          <folding>
-            <marker date="1536101885324" expanded="true" signature="6:40" ph="..." />
-            <marker date="1536101885324" expanded="true" signature="82:399" ph="{...}" />
-            <marker date="1536101885324" expanded="true" signature="131:397" ph="{...}" />
-            <marker date="1536101885324" expanded="true" signature="209:391" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -742,11 +752,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
           <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <marker date="1536101885343" expanded="true" signature="40:238" ph="{...}" />
-            <marker date="1536101885343" expanded="true" signature="83:236" ph="{...}" />
-            <marker date="1536101885343" expanded="true" signature="148:230" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -754,56 +759,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-          <folding>
-            <marker date="1536070925681" expanded="true" signature="29:296" ph="{...}" />
-            <marker date="1536070925681" expanded="true" signature="76:294" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/XamarinLooker/Model/DateFragments.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1536096252658" expanded="false" signature="6:59" ph="..." />
-            <marker date="1536096252658" expanded="true" signature="90:402" ph="{...}" />
-            <marker date="1536096252658" expanded="true" signature="123:400" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/XamarinLooker/Model/DueDates.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1536098899756" expanded="false" signature="6:59" ph="..." />
-            <marker date="1536098899756" expanded="true" signature="90:458" ph="{...}" />
-            <marker date="1536098899756" expanded="true" signature="118:456" ph="{...}" />
-            <marker date="1536098899756" expanded="true" signature="150:254" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/XamarinLooker/Model/Look.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="89" selection-start-line="22" selection-start-column="89" selection-end-line="22" selection-end-column="89" />
-          <folding>
-            <marker date="1536101885337" expanded="true" signature="6:60" ph="..." />
-            <marker date="1536101885337" expanded="true" signature="91:827" ph="{...}" />
-            <marker date="1536101885337" expanded="true" signature="115:825" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/XamarinLooker/Model/LookAddress.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
-          <folding>
-            <marker date="1536101885331" expanded="true" signature="53:658" ph="{...}" />
-            <marker date="1536101885331" expanded="true" signature="84:656" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -811,32 +779,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <marker date="1536101885317" expanded="true" signature="53:279" ph="{...}" />
-            <marker date="1536101885317" expanded="true" signature="79:277" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/XamarinLooker/Services/IAuthenticationService.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1536070925682" expanded="false" signature="6:61" ph="..." />
-            <marker date="1536070925682" expanded="true" signature="95:197" ph="{...}" />
-            <marker date="1536070925682" expanded="true" signature="141:195" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/XamarinLooker/Services/INavigationService.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" column="43" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="43" />
+        <state>
           <folding>
-            <marker date="1536070925682" expanded="false" signature="6:66" ph="..." />
-            <marker date="1536070925682" expanded="true" signature="100:498" ph="{...}" />
-            <marker date="1536070925682" expanded="true" signature="142:496" ph="{...}" />
+            <marker date="1535761089489" expanded="false" signature="6:66" ph="..." />
+            <marker date="1535761089489" expanded="true" signature="100:498" ph="{...}" />
+            <marker date="1535761089489" expanded="true" signature="142:496" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -845,21 +800,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-          <folding>
-            <marker date="1536078287806" expanded="false" signature="6:56" ph="..." />
-            <marker date="1536078287806" expanded="true" signature="90:176" ph="{...}" />
-            <marker date="1536078287806" expanded="true" signature="129:174" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/XamarinLooker/Services/ISettingsService.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+        <state relative-caret-position="105">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
           <folding>
-            <marker date="1536078287803" expanded="true" signature="32:206" ph="{...}" />
-            <marker date="1536078287803" expanded="true" signature="72:204" ph="{...}" />
+            <marker date="1536113035638" expanded="true" signature="32:206" ph="{...}" />
+            <marker date="1536113035638" expanded="true" signature="72:167" ph="{...}" />
+            <marker date="1536113035638" expanded="true" signature="184:204" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -868,100 +819,68 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="42" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
-          <folding>
-            <marker date="1536078287810" expanded="true" signature="32:241" ph="{...}" />
-            <marker date="1536078287810" expanded="true" signature="86:239" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/XamarinLooker/ViewModels/LookDetailsViewModel.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="300">
           <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
           <folding>
-            <marker date="1536070925686" expanded="false" signature="6:93" ph="..." />
-            <marker date="1536070925686" expanded="true" signature="129:683" ph="{...}" />
-            <marker date="1536070925686" expanded="true" signature="185:681" ph="{...}" />
-            <marker date="1536070925686" expanded="true" signature="294:466" ph="{...}" />
-            <marker date="1536070925686" expanded="true" signature="344:456" ph="{...}" />
-            <marker date="1536070925686" expanded="true" signature="499:675" ph="{...}" />
-            <marker date="1536070925686" expanded="true" signature="551:665" ph="{...}" />
+            <marker date="1536028560693" expanded="true" signature="6:93" ph="..." />
+            <marker date="1536028560693" expanded="true" signature="129:683" ph="{...}" />
+            <marker date="1536028560693" expanded="true" signature="185:681" ph="{...}" />
+            <marker date="1536028560693" expanded="true" signature="294:466" ph="{...}" />
+            <marker date="1536028560693" expanded="true" signature="344:456" ph="{...}" />
+            <marker date="1536028560693" expanded="true" signature="499:675" ph="{...}" />
+            <marker date="1536028560693" expanded="true" signature="551:665" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/XamarinLooker/ViewModels/AuthenticateViewModel.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+        <state relative-caret-position="165">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
           <folding>
-            <marker date="1536102044351" expanded="false" signature="7:196" ph="..." />
-            <marker date="1536102044351" expanded="true" signature="232:1783" ph="{...}" />
-            <marker date="1536102044351" expanded="true" signature="289:1781" ph="{...}" />
-            <marker date="1536102044351" expanded="true" signature="538:816" ph="{...}" />
-            <marker date="1536102044351" expanded="true" signature="753:806" ph="{...}" />
-            <marker date="1536102044351" expanded="true" signature="853:1058" ph="{...}" />
-            <marker date="1536102044351" expanded="true" signature="917:1048" ph="{...}" />
-            <marker date="1536102044351" expanded="true" signature="1094:1775" ph="{...}" />
-            <marker date="1536102044351" expanded="true" signature="1208:1765" ph="{...}" />
+            <marker date="1536113035643" expanded="true" signature="1738:1765" ph="{...}" />
+            <marker date="1536113035643" expanded="true" signature="1738:1775" ph="{...}" />
+            <marker date="1536113035643" expanded="true" signature="1738:1781" ph="{...}" />
+            <marker date="1536113035643" expanded="true" signature="1738:1783" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/XamarinLooker/Model/UserInfo.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <marker date="1536102044346" expanded="true" signature="53:179" ph="{...}" />
-            <marker date="1536102044346" expanded="true" signature="81:177" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/XamarinLooker/Services/NavigationService.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="119" column="13" selection-start-line="119" selection-start-column="13" selection-end-line="119" selection-end-column="13" />
+        <state relative-caret-position="257">
+          <caret line="94" column="17" selection-start-line="94" selection-start-column="17" selection-end-line="94" selection-end-column="17" />
           <folding>
-            <marker date="1536102044335" expanded="false" signature="6:213" ph="..." />
-            <marker date="1536102044335" expanded="true" signature="247:4146" ph="{...}" />
-            <marker date="1536102044335" expanded="true" signature="305:4144" ph="{...}" />
-            <marker date="1536102044335" expanded="true" signature="423:754" ph="{...}" />
-            <marker date="1536102044335" expanded="true" signature="449:744" ph="{...}" />
-            <marker date="1536102044335" expanded="true" signature="822:890" ph="{...}" />
-            <marker date="1536102044335" expanded="true" signature="929:1203" ph="{...}" />
-            <marker date="1536102044335" expanded="true" signature="1044:1138" ph="{...}" />
-            <marker date="1536102044335" expanded="true" signature="1287:1377" ph="{...}" />
-            <marker date="1536102044335" expanded="true" signature="1477:1572" ph="{...}" />
-            <marker date="1536102044335" expanded="true" signature="1624:1984" ph="{...}" />
-            <marker date="1536102044335" expanded="true" signature="1750:1931" ph="{...}" />
-            <marker date="1536102044335" expanded="true" signature="2028:2451" ph="{...}" />
-            <marker date="1536102044335" expanded="true" signature="2117:2398" ph="{...}" />
-            <marker date="1536102044335" expanded="true" signature="2219:2384" ph="{...}" />
-            <marker date="1536102044335" expanded="true" signature="2541:3272" ph="{...}" />
-            <marker date="1536102044335" expanded="true" signature="2655:2762" ph="{...}" />
-            <marker date="1536102044335" expanded="true" signature="2779:3176" ph="{...}" />
-            <marker date="1536102044335" expanded="true" signature="2928:3022" ph="{...}" />
-            <marker date="1536102044335" expanded="true" signature="3043:3162" ph="{...}" />
-            <marker date="1536102044335" expanded="true" signature="3338:3740" ph="{...}" />
-            <marker date="1536102044335" expanded="true" signature="3811:4138" ph="{...}" />
-            <marker date="1536102044335" expanded="true" signature="3922:4035" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/XamarinLooker/Services/NetworkService.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
-          <folding>
-            <marker date="1536089723811" expanded="false" signature="6:205" ph="..." />
-            <marker date="1536089723811" expanded="true" signature="239:1254" ph="{...}" />
-            <marker date="1536089723811" expanded="true" signature="291:1252" ph="{...}" />
-            <marker date="1536089723811" expanded="true" signature="422:490" ph="{...}" />
-            <marker date="1536089723811" expanded="true" signature="535:1246" ph="{...}" />
-            <marker date="1536089723811" expanded="true" signature="617:723" ph="{...}" />
+            <marker date="1536113035640" expanded="false" signature="6:213" ph="..." />
+            <marker date="1536113035640" expanded="true" signature="247:4146" ph="{...}" />
+            <marker date="1536113035640" expanded="true" signature="305:4144" ph="{...}" />
+            <marker date="1536113035640" expanded="true" signature="423:754" ph="{...}" />
+            <marker date="1536113035640" expanded="true" signature="449:744" ph="{...}" />
+            <marker date="1536113035640" expanded="true" signature="822:890" ph="{...}" />
+            <marker date="1536113035640" expanded="true" signature="929:1203" ph="{...}" />
+            <marker date="1536113035640" expanded="true" signature="1044:1138" ph="{...}" />
+            <marker date="1536113035640" expanded="true" signature="1287:1377" ph="{...}" />
+            <marker date="1536113035640" expanded="true" signature="1477:1572" ph="{...}" />
+            <marker date="1536113035640" expanded="true" signature="1624:1984" ph="{...}" />
+            <marker date="1536113035640" expanded="true" signature="1750:1931" ph="{...}" />
+            <marker date="1536113035640" expanded="true" signature="2028:2451" ph="{...}" />
+            <marker date="1536113035640" expanded="true" signature="2117:2398" ph="{...}" />
+            <marker date="1536113035640" expanded="true" signature="2219:2384" ph="{...}" />
+            <marker date="1536113035640" expanded="true" signature="2541:3272" ph="{...}" />
+            <marker date="1536113035640" expanded="true" signature="2655:2762" ph="{...}" />
+            <marker date="1536113035640" expanded="true" signature="2779:3176" ph="{...}" />
+            <marker date="1536113035640" expanded="true" signature="2928:3022" ph="{...}" />
+            <marker date="1536113035640" expanded="true" signature="3043:3162" ph="{...}" />
+            <marker date="1536113035640" expanded="true" signature="3338:3740" ph="{...}" />
+            <marker date="1536113035640" expanded="true" signature="3811:4138" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -970,28 +889,78 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XamarinLooker/Services/NetworkService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="20" column="50" selection-start-line="20" selection-start-column="50" selection-end-line="20" selection-end-column="50" />
           <folding>
-            <marker date="1536070925687" expanded="true" signature="72:199" ph="{...}" />
-            <marker date="1536070925687" expanded="true" signature="121:197" ph="{...}" />
-            <marker date="1536070925687" expanded="true" signature="158:191" ph="{...}" />
+            <marker date="1536113035640" expanded="false" signature="6:205" ph="..." />
+            <marker date="1536113035640" expanded="true" signature="239:1254" ph="{...}" />
+            <marker date="1536113035640" expanded="true" signature="291:1252" ph="{...}" />
+            <marker date="1536113035640" expanded="true" signature="422:490" ph="{...}" />
+            <marker date="1536113035640" expanded="true" signature="535:1246" ph="{...}" />
+            <marker date="1536113035640" expanded="true" signature="617:723" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XamarinLooker/ViewModels/LooksViewModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+          <folding>
+            <marker date="1536113035645" expanded="true" signature="6:161" ph="..." />
+            <marker date="1536113035645" expanded="true" signature="197:3015" ph="{...}" />
+            <marker date="1536113035645" expanded="true" signature="247:3013" ph="{...}" />
+            <marker date="1536113035645" expanded="true" signature="508:687" ph="{...}" />
+            <marker date="1536113035645" expanded="true" signature="564:676" ph="{...}" />
+            <marker date="1536113035645" expanded="true" signature="721:1004" ph="{...}" />
+            <marker date="1536113035645" expanded="true" signature="782:994" ph="{...}" />
+            <marker date="1536113035645" expanded="true" signature="1101:1269" ph="{...}" />
+            <marker date="1536113035645" expanded="true" signature="1343:1456" ph="{...}" />
+            <marker date="1536113035645" expanded="true" signature="1523:3007" ph="{...}" />
+            <marker date="1536113035645" expanded="true" signature="1579:2863" ph="{...}" />
+            <marker date="1536113035645" expanded="true" signature="1666:2848" ph="{...}" />
+            <marker date="1536113035645" expanded="true" signature="1717:2253" ph="{...}" />
+            <marker date="1536113035645" expanded="true" signature="1958:2231" ph="{...}" />
+            <marker date="1536113035645" expanded="true" signature="2043:2205" ph="{...}" />
+            <marker date="1536113035645" expanded="true" signature="2304:2830" ph="{...}" />
+            <marker date="1536113035645" expanded="true" signature="2535:2808" ph="{...}" />
+            <marker date="1536113035645" expanded="true" signature="2620:2782" ph="{...}" />
+            <marker date="1536113035645" expanded="true" signature="2880:2997" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/XamarinLooker/Model/LookAddress.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="38" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="38" />
+          <folding>
+            <marker date="1536113035636" expanded="true" signature="53:658" ph="{...}" />
+            <marker date="1536113035636" expanded="true" signature="84:656" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/XamarinLooker/Views/LooksView.xaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-13">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        <state relative-caret-position="405">
+          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
           <folding>
-            <marker date="1536100953909" expanded="true" signature="39:1973" ph="&lt;&lt;ContentPage.Content&gt;     &#10;        &lt;ListView x:Name=&quot;LooksListView&quot; RowHeight=&quot;200&quot; ItemsSource=&quot;{Binding Looks}&quot; SelectedItem=&quot;{Binding SelectedLook, Mode=TwoWay}&quot; &gt;&#10;            &lt;ListView.ItemTemplate &gt;&#10;                &lt;DataTemplate &gt;&#10;                    &lt;ViewCell&gt;&#10;                        &lt;Grid&gt;&#10;                            &lt;Grid.RowDefinitions&gt;&#10;                    &lt;RowDefinition Height=&quot;*&quot;&gt;&lt;/RowDefinition&gt;&#10;                                &lt;RowDefinition Height=&quot;*&quot;&gt;&lt;/RowDefinition&gt;&#10;                                &lt;RowDefinition Height=&quot;*&quot;&gt;&lt;/RowDefinition&gt;&#10;                                &lt;RowDefinition Height=&quot;*&quot;&gt;&lt;/RowDefinition&gt;&#10;                    &#10;                &lt;/Grid.RowDefinitions&gt;&#10;                            &lt;Grid.ColumnDefinitions&gt;&#10;                            &lt;ColumnDefinition Width=&quot;*&quot;&gt;&lt;/ColumnDefinition&gt;&#10;                            &lt;ColumnDefinition Width=&quot;*&quot;&gt;&lt;/ColumnDefinition&gt;&#10;                            &lt;/Grid.ColumnDefinitions&gt;&#10;                          &lt;Label Grid.Row=&quot;0&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding Schema.Name}&quot;&gt;&lt;/Label&gt;&#10;                          &lt;Label Grid.Row=&quot;1&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding LookerDueDate}&quot;&gt;&lt;/Label&gt;&#10;                          &lt;Label Grid.Row=&quot;2&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding LookAddress.FormattedAddress}&quot;&gt;&lt;/Label&gt;&#10;                          &lt;Label Grid.Row=&quot;0&quot; Grid.RowSpan=&quot;4&quot; Grid.Column=&quot;1&quot; Text=&quot;{Binding LookerFee}&quot;&gt;&lt;/Label&gt;&#10;                        &lt;/Grid&gt;&#10;                    &lt;/ViewCell&gt;&#10;                    &#10;                &lt;/DataTemplate&gt;&#10;            &lt;/ListView.ItemTemplate&gt;&#10;        &lt;/ListView&gt;&#10;    &lt;/ContentPage.Content&gt;.../&gt;" />
-            <marker date="1536100953909" expanded="true" signature="369:1958" ph="&lt;&lt;ListView x:Name=&quot;LooksListView&quot; RowHeight=&quot;200&quot; ItemsSource=&quot;{Binding Looks}&quot; SelectedItem=&quot;{Binding SelectedLook, Mode=TwoWay}&quot; &gt;&#10;            &lt;ListView.ItemTemplate &gt;&#10;                &lt;DataTemplate &gt;&#10;                    &lt;ViewCell&gt;&#10;                        &lt;Grid&gt;&#10;                            &lt;Grid.RowDefinitions&gt;&#10;                    &lt;RowDefinition Height=&quot;*&quot;&gt;&lt;/RowDefinition&gt;&#10;                                &lt;RowDefinition Height=&quot;*&quot;&gt;&lt;/RowDefinition&gt;&#10;                                &lt;RowDefinition Height=&quot;*&quot;&gt;&lt;/RowDefinition&gt;&#10;                                &lt;RowDefinition Height=&quot;*&quot;&gt;&lt;/RowDefinition&gt;&#10;                    &#10;                &lt;/Grid.RowDefinitions&gt;&#10;                            &lt;Grid.ColumnDefinitions&gt;&#10;                            &lt;ColumnDefinition Width=&quot;*&quot;&gt;&lt;/ColumnDefinition&gt;&#10;                            &lt;ColumnDefinition Width=&quot;*&quot;&gt;&lt;/ColumnDefinition&gt;&#10;                            &lt;/Grid.ColumnDefinitions&gt;&#10;                          &lt;Label Grid.Row=&quot;0&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding Schema.Name}&quot;&gt;&lt;/Label&gt;&#10;                          &lt;Label Grid.Row=&quot;1&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding LookerDueDate}&quot;&gt;&lt;/Label&gt;&#10;                          &lt;Label Grid.Row=&quot;2&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding LookAddress.FormattedAddress}&quot;&gt;&lt;/Label&gt;&#10;                          &lt;Label Grid.Row=&quot;0&quot; Grid.RowSpan=&quot;4&quot; Grid.Column=&quot;1&quot; Text=&quot;{Binding LookerFee}&quot;&gt;&lt;/Label&gt;&#10;                        &lt;/Grid&gt;&#10;                    &lt;/ViewCell&gt;&#10;                    &#10;                &lt;/DataTemplate&gt;&#10;            &lt;/ListView.ItemTemplate&gt;&#10;        &lt;/ListView&gt;.../&gt;" />
-            <marker date="1536100953909" expanded="true" signature="404:1931" ph="&lt;&lt;ListView.ItemTemplate &gt;&#10;                &lt;DataTemplate &gt;&#10;                    &lt;ViewCell&gt;&#10;                        &lt;Grid&gt;&#10;                            &lt;Grid.RowDefinitions&gt;&#10;                    &lt;RowDefinition Height=&quot;*&quot;&gt;&lt;/RowDefinition&gt;&#10;                                &lt;RowDefinition Height=&quot;*&quot;&gt;&lt;/RowDefinition&gt;&#10;                                &lt;RowDefinition Height=&quot;*&quot;&gt;&lt;/RowDefinition&gt;&#10;                                &lt;RowDefinition Height=&quot;*&quot;&gt;&lt;/RowDefinition&gt;&#10;                    &#10;                &lt;/Grid.RowDefinitions&gt;&#10;                            &lt;Grid.ColumnDefinitions&gt;&#10;                            &lt;ColumnDefinition Width=&quot;*&quot;&gt;&lt;/ColumnDefinition&gt;&#10;                            &lt;ColumnDefinition Width=&quot;*&quot;&gt;&lt;/ColumnDefinition&gt;&#10;                            &lt;/Grid.ColumnDefinitions&gt;&#10;                          &lt;Label Grid.Row=&quot;0&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding Schema.Name}&quot;&gt;&lt;/Label&gt;&#10;                          &lt;Label Grid.Row=&quot;1&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding LookerDueDate}&quot;&gt;&lt;/Label&gt;&#10;                          &lt;Label Grid.Row=&quot;2&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding LookAddress.FormattedAddress}&quot;&gt;&lt;/Label&gt;&#10;                          &lt;Label Grid.Row=&quot;0&quot; Grid.RowSpan=&quot;4&quot; Grid.Column=&quot;1&quot; Text=&quot;{Binding LookerFee}&quot;&gt;&lt;/Label&gt;&#10;                        &lt;/Grid&gt;&#10;                    &lt;/ViewCell&gt;&#10;                    &#10;                &lt;/DataTemplate&gt;&#10;            &lt;/ListView.ItemTemplate&gt;.../&gt;" />
-            <marker date="1536100953909" expanded="true" signature="548:1911" ph="&lt;&lt;DataTemplate &gt;&#10;                    &lt;ViewCell&gt;&#10;                        &lt;Grid&gt;&#10;                            &lt;Grid.RowDefinitions&gt;&#10;                    &lt;RowDefinition Height=&quot;*&quot;&gt;&lt;/RowDefinition&gt;&#10;                                &lt;RowDefinition Height=&quot;*&quot;&gt;&lt;/RowDefinition&gt;&#10;                                &lt;RowDefinition Height=&quot;*&quot;&gt;&lt;/RowDefinition&gt;&#10;                                &lt;RowDefinition Height=&quot;*&quot;&gt;&lt;/RowDefinition&gt;&#10;                    &#10;                &lt;/Grid.RowDefinitions&gt;&#10;                            &lt;Grid.ColumnDefinitions&gt;&#10;                            &lt;ColumnDefinition Width=&quot;*&quot;&gt;&lt;/ColumnDefinition&gt;&#10;                            &lt;ColumnDefinition Width=&quot;*&quot;&gt;&lt;/ColumnDefinition&gt;&#10;                            &lt;/Grid.ColumnDefinitions&gt;&#10;                          &lt;Label Grid.Row=&quot;0&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding Schema.Name}&quot;&gt;&lt;/Label&gt;&#10;                          &lt;Label Grid.Row=&quot;1&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding LookerDueDate}&quot;&gt;&lt;/Label&gt;&#10;                          &lt;Label Grid.Row=&quot;2&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding LookAddress.FormattedAddress}&quot;&gt;&lt;/Label&gt;&#10;                          &lt;Label Grid.Row=&quot;0&quot; Grid.RowSpan=&quot;4&quot; Grid.Column=&quot;1&quot; Text=&quot;{Binding LookerFee}&quot;&gt;&lt;/Label&gt;&#10;                        &lt;/Grid&gt;&#10;                    &lt;/ViewCell&gt;&#10;                    &#10;                &lt;/DataTemplate&gt;.../&gt;" />
-            <marker date="1536100953909" expanded="true" signature="589:1874" ph="&lt;&lt;ViewCell&gt;&#10;                        &lt;Grid&gt;&#10;                            &lt;Grid.RowDefinitions&gt;&#10;                    &lt;RowDefinition Height=&quot;*&quot;&gt;&lt;/RowDefinition&gt;&#10;                                &lt;RowDefinition Height=&quot;*&quot;&gt;&lt;/RowDefinition&gt;&#10;                                &lt;RowDefinition Height=&quot;*&quot;&gt;&lt;/RowDefinition&gt;&#10;                                &lt;RowDefinition Height=&quot;*&quot;&gt;&lt;/RowDefinition&gt;&#10;                    &#10;                &lt;/Grid.RowDefinitions&gt;&#10;                            &lt;Grid.ColumnDefinitions&gt;&#10;                            &lt;ColumnDefinition Width=&quot;*&quot;&gt;&lt;/ColumnDefinition&gt;&#10;                            &lt;ColumnDefinition Width=&quot;*&quot;&gt;&lt;/ColumnDefinition&gt;&#10;                            &lt;/Grid.ColumnDefinitions&gt;&#10;                          &lt;Label Grid.Row=&quot;0&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding Schema.Name}&quot;&gt;&lt;/Label&gt;&#10;                          &lt;Label Grid.Row=&quot;1&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding LookerDueDate}&quot;&gt;&lt;/Label&gt;&#10;                          &lt;Label Grid.Row=&quot;2&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding LookAddress.FormattedAddress}&quot;&gt;&lt;/Label&gt;&#10;                          &lt;Label Grid.Row=&quot;0&quot; Grid.RowSpan=&quot;4&quot; Grid.Column=&quot;1&quot; Text=&quot;{Binding LookerFee}&quot;&gt;&lt;/Label&gt;&#10;                        &lt;/Grid&gt;&#10;                    &lt;/ViewCell&gt;.../&gt;" />
-            <marker date="1536100953909" expanded="true" signature="625:1821" ph="&lt;&lt;Grid&gt;&#10;                            &lt;Grid.RowDefinitions&gt;&#10;                    &lt;RowDefinition Height=&quot;*&quot;&gt;&lt;/RowDefinition&gt;&#10;                                &lt;RowDefinition Height=&quot;*&quot;&gt;&lt;/RowDefinition&gt;&#10;                                &lt;RowDefinition Height=&quot;*&quot;&gt;&lt;/RowDefinition&gt;&#10;                                &lt;RowDefinition Height=&quot;*&quot;&gt;&lt;/RowDefinition&gt;&#10;                    &#10;                &lt;/Grid.RowDefinitions&gt;&#10;                            &lt;Grid.ColumnDefinitions&gt;&#10;                            &lt;ColumnDefinition Width=&quot;*&quot;&gt;&lt;/ColumnDefinition&gt;&#10;                            &lt;ColumnDefinition Width=&quot;*&quot;&gt;&lt;/ColumnDefinition&gt;&#10;                            &lt;/Grid.ColumnDefinitions&gt;&#10;                          &lt;Label Grid.Row=&quot;0&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding Schema.Name}&quot;&gt;&lt;/Label&gt;&#10;                          &lt;Label Grid.Row=&quot;1&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding LookerDueDate}&quot;&gt;&lt;/Label&gt;&#10;                          &lt;Label Grid.Row=&quot;2&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding LookAddress.FormattedAddress}&quot;&gt;&lt;/Label&gt;&#10;                          &lt;Label Grid.Row=&quot;0&quot; Grid.RowSpan=&quot;4&quot; Grid.Column=&quot;1&quot; Text=&quot;{Binding LookerFee}&quot;&gt;&lt;/Label&gt;&#10;                        &lt;/Grid&gt;.../&gt;" />
-            <marker date="1536100953909" expanded="true" signature="660:1789" ph="&lt;&lt;Grid.RowDefinitions&gt;&#10;                    &lt;RowDefinition Height=&quot;*&quot;&gt;&lt;/RowDefinition&gt;&#10;                                &lt;RowDefinition Height=&quot;*&quot;&gt;&lt;/RowDefinition&gt;&#10;                                &lt;RowDefinition Height=&quot;*&quot;&gt;&lt;/RowDefinition&gt;&#10;                                &lt;RowDefinition Height=&quot;*&quot;&gt;&lt;/RowDefinition&gt;&#10;                    &#10;                &lt;/Grid.RowDefinitions&gt; &lt;Grid.ColumnDefinitions&gt;&#10;                            &lt;ColumnDefinition Width=&quot;*&quot;&gt;&lt;/ColumnDefinition&gt;&#10;                            &lt;ColumnDefinition Width=&quot;*&quot;&gt;&lt;/ColumnDefinition&gt;&#10;                            &lt;/Grid.ColumnDefinitions&gt; &lt;Label Grid.Row=&quot;0&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding Schema.Name}&quot;&gt;&lt;/Label&gt; &lt;Label Grid.Row=&quot;1&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding LookerDueDate}&quot;&gt;&lt;/Label&gt; &lt;Label Grid.Row=&quot;2&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding LookAddress.FormattedAddress}&quot;&gt;&lt;/Label&gt; &lt;Label Grid.Row=&quot;0&quot; Grid.RowSpan=&quot;4&quot; Grid.Column=&quot;1&quot; Text=&quot;{Binding LookerFee}&quot;&gt;&lt;/Label&gt;.../&gt;" />
-            <marker date="1536100953909" expanded="true" signature="695:1064" ph="&lt;&lt;RowDefinition Height=&quot;*&quot;&gt;&lt;/RowDefinition&gt; &lt;RowDefinition Height=&quot;*&quot;&gt;&lt;/RowDefinition&gt; &lt;RowDefinition Height=&quot;*&quot;&gt;&lt;/RowDefinition&gt; &lt;RowDefinition Height=&quot;*&quot;&gt;&lt;/RowDefinition&gt;.../&gt;" />
-            <marker date="1536100953909" expanded="true" signature="1093:1323" ph="&lt;&lt;ColumnDefinition Width=&quot;*&quot;&gt;&lt;/ColumnDefinition&gt; &lt;ColumnDefinition Width=&quot;*&quot;&gt;&lt;/ColumnDefinition&gt;.../&gt;" />
+            <marker date="1536115065696" expanded="true" signature="39:1952" ph="&lt;&lt;ContentPage.Content&gt;&#10;        &lt;ListView x:Name=&quot;LooksListView&quot; RowHeight=&quot;100&quot; ItemsSource=&quot;{Binding Looks}&quot;&#10;                  SelectedItem=&quot;{Binding SelectedLook, Mode=TwoWay}&quot;&gt;&#10;            &lt;ListView.ItemTemplate&gt;&#10;                &lt;DataTemplate&gt;&#10;                    &lt;ViewCell&gt;&#10;                        &lt;Grid Padding=&quot;5&quot;&gt;&#10;                            &lt;Grid.RowDefinitions&gt;&#10;                                &lt;RowDefinition Height=&quot;20&quot; /&gt;&#10;                                &lt;RowDefinition Height=&quot;20&quot; /&gt;&#10;                                &lt;RowDefinition Height=&quot;20&quot; /&gt;&#10;                            &lt;/Grid.RowDefinitions&gt;&#10;                            &lt;Grid.ColumnDefinitions&gt;&#10;                                &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;                                &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;                            &lt;/Grid.ColumnDefinitions&gt;&#10;                            &lt;Label Grid.Row=&quot;0&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding Schema.Name}&quot; /&gt;&#10;                            &lt;Label Grid.Row=&quot;1&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding LookerDueDate}&quot; /&gt;&#10;                            &lt;Label Grid.Row=&quot;2&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding LookAddress.FormattedAddress}&quot; /&gt;&#10;                            &lt;Label Grid.Row=&quot;0&quot; FontAttributes=&quot;Bold&quot; Grid.RowSpan=&quot;3&quot; HorizontalTextAlignment=&quot;End&quot;&#10;                                   VerticalTextAlignment=&quot;Center&quot; Grid.Column=&quot;1&quot; Text=&quot;{Binding LookerFee}&quot; /&gt;&#10;                        &lt;/Grid&gt;&#10;                    &lt;/ViewCell&gt;&#10;                &lt;/DataTemplate&gt;&#10;            &lt;/ListView.ItemTemplate&gt;&#10;        &lt;/ListView&gt;&#10;    &lt;/ContentPage.Content&gt;.../&gt;" />
+            <marker date="1536115065696" expanded="true" signature="382:1937" ph="&lt;&lt;ListView x:Name=&quot;LooksListView&quot; RowHeight=&quot;100&quot; ItemsSource=&quot;{Binding Looks}&quot;&#10;                  SelectedItem=&quot;{Binding SelectedLook, Mode=TwoWay}&quot;&gt;&#10;            &lt;ListView.ItemTemplate&gt;&#10;                &lt;DataTemplate&gt;&#10;                    &lt;ViewCell&gt;&#10;                        &lt;Grid Padding=&quot;5&quot;&gt;&#10;                            &lt;Grid.RowDefinitions&gt;&#10;                                &lt;RowDefinition Height=&quot;20&quot; /&gt;&#10;                                &lt;RowDefinition Height=&quot;20&quot; /&gt;&#10;                                &lt;RowDefinition Height=&quot;20&quot; /&gt;&#10;                            &lt;/Grid.RowDefinitions&gt;&#10;                            &lt;Grid.ColumnDefinitions&gt;&#10;                                &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;                                &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;                            &lt;/Grid.ColumnDefinitions&gt;&#10;                            &lt;Label Grid.Row=&quot;0&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding Schema.Name}&quot; /&gt;&#10;                            &lt;Label Grid.Row=&quot;1&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding LookerDueDate}&quot; /&gt;&#10;                            &lt;Label Grid.Row=&quot;2&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding LookAddress.FormattedAddress}&quot; /&gt;&#10;                            &lt;Label Grid.Row=&quot;0&quot; FontAttributes=&quot;Bold&quot; Grid.RowSpan=&quot;3&quot; HorizontalTextAlignment=&quot;End&quot;&#10;                                   VerticalTextAlignment=&quot;Center&quot; Grid.Column=&quot;1&quot; Text=&quot;{Binding LookerFee}&quot; /&gt;&#10;                        &lt;/Grid&gt;&#10;                    &lt;/ViewCell&gt;&#10;                &lt;/DataTemplate&gt;&#10;            &lt;/ListView.ItemTemplate&gt;&#10;        &lt;/ListView&gt;.../&gt;" />
+            <marker date="1536115065696" expanded="true" signature="412:1910" ph="&lt;&lt;ListView.ItemTemplate&gt;&#10;                &lt;DataTemplate&gt;&#10;                    &lt;ViewCell&gt;&#10;                        &lt;Grid Padding=&quot;5&quot;&gt;&#10;                            &lt;Grid.RowDefinitions&gt;&#10;                                &lt;RowDefinition Height=&quot;20&quot; /&gt;&#10;                                &lt;RowDefinition Height=&quot;20&quot; /&gt;&#10;                                &lt;RowDefinition Height=&quot;20&quot; /&gt;&#10;                            &lt;/Grid.RowDefinitions&gt;&#10;                            &lt;Grid.ColumnDefinitions&gt;&#10;                                &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;                                &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;                            &lt;/Grid.ColumnDefinitions&gt;&#10;                            &lt;Label Grid.Row=&quot;0&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding Schema.Name}&quot; /&gt;&#10;                            &lt;Label Grid.Row=&quot;1&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding LookerDueDate}&quot; /&gt;&#10;                            &lt;Label Grid.Row=&quot;2&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding LookAddress.FormattedAddress}&quot; /&gt;&#10;                            &lt;Label Grid.Row=&quot;0&quot; FontAttributes=&quot;Bold&quot; Grid.RowSpan=&quot;3&quot; HorizontalTextAlignment=&quot;End&quot;&#10;                                   VerticalTextAlignment=&quot;Center&quot; Grid.Column=&quot;1&quot; Text=&quot;{Binding LookerFee}&quot; /&gt;&#10;                        &lt;/Grid&gt;&#10;                    &lt;/ViewCell&gt;&#10;                &lt;/DataTemplate&gt;&#10;            &lt;/ListView.ItemTemplate&gt;.../&gt;" />
+            <marker date="1536115065696" expanded="true" signature="573:1890" ph="&lt;&lt;DataTemplate&gt;&#10;                    &lt;ViewCell&gt;&#10;                        &lt;Grid Padding=&quot;5&quot;&gt;&#10;                            &lt;Grid.RowDefinitions&gt;&#10;                                &lt;RowDefinition Height=&quot;20&quot; /&gt;&#10;                                &lt;RowDefinition Height=&quot;20&quot; /&gt;&#10;                                &lt;RowDefinition Height=&quot;20&quot; /&gt;&#10;                            &lt;/Grid.RowDefinitions&gt;&#10;                            &lt;Grid.ColumnDefinitions&gt;&#10;                                &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;                                &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;                            &lt;/Grid.ColumnDefinitions&gt;&#10;                            &lt;Label Grid.Row=&quot;0&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding Schema.Name}&quot; /&gt;&#10;                            &lt;Label Grid.Row=&quot;1&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding LookerDueDate}&quot; /&gt;&#10;                            &lt;Label Grid.Row=&quot;2&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding LookAddress.FormattedAddress}&quot; /&gt;&#10;                            &lt;Label Grid.Row=&quot;0&quot; FontAttributes=&quot;Bold&quot; Grid.RowSpan=&quot;3&quot; HorizontalTextAlignment=&quot;End&quot;&#10;                                   VerticalTextAlignment=&quot;Center&quot; Grid.Column=&quot;1&quot; Text=&quot;{Binding LookerFee}&quot; /&gt;&#10;                        &lt;/Grid&gt;&#10;                    &lt;/ViewCell&gt;&#10;                &lt;/DataTemplate&gt;.../&gt;" />
+            <marker date="1536115065696" expanded="true" signature="613:1853" ph="&lt;&lt;ViewCell&gt;&#10;                        &lt;Grid Padding=&quot;5&quot;&gt;&#10;                            &lt;Grid.RowDefinitions&gt;&#10;                                &lt;RowDefinition Height=&quot;20&quot; /&gt;&#10;                                &lt;RowDefinition Height=&quot;20&quot; /&gt;&#10;                                &lt;RowDefinition Height=&quot;20&quot; /&gt;&#10;                            &lt;/Grid.RowDefinitions&gt;&#10;                            &lt;Grid.ColumnDefinitions&gt;&#10;                                &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;                                &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;                            &lt;/Grid.ColumnDefinitions&gt;&#10;                            &lt;Label Grid.Row=&quot;0&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding Schema.Name}&quot; /&gt;&#10;                            &lt;Label Grid.Row=&quot;1&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding LookerDueDate}&quot; /&gt;&#10;                            &lt;Label Grid.Row=&quot;2&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding LookAddress.FormattedAddress}&quot; /&gt;&#10;                            &lt;Label Grid.Row=&quot;0&quot; FontAttributes=&quot;Bold&quot; Grid.RowSpan=&quot;3&quot; HorizontalTextAlignment=&quot;End&quot;&#10;                                   VerticalTextAlignment=&quot;Center&quot; Grid.Column=&quot;1&quot; Text=&quot;{Binding LookerFee}&quot; /&gt;&#10;                        &lt;/Grid&gt;&#10;                    &lt;/ViewCell&gt;.../&gt;" />
+            <marker date="1536115065696" expanded="true" signature="648:1821" ph="&lt;&lt;Grid Padding=&quot;5&quot;&gt;&#10;                            &lt;Grid.RowDefinitions&gt;&#10;                                &lt;RowDefinition Height=&quot;20&quot; /&gt;&#10;                                &lt;RowDefinition Height=&quot;20&quot; /&gt;&#10;                                &lt;RowDefinition Height=&quot;20&quot; /&gt;&#10;                            &lt;/Grid.RowDefinitions&gt;&#10;                            &lt;Grid.ColumnDefinitions&gt;&#10;                                &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;                                &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;                            &lt;/Grid.ColumnDefinitions&gt;&#10;                            &lt;Label Grid.Row=&quot;0&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding Schema.Name}&quot; /&gt;&#10;                            &lt;Label Grid.Row=&quot;1&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding LookerDueDate}&quot; /&gt;&#10;                            &lt;Label Grid.Row=&quot;2&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding LookAddress.FormattedAddress}&quot; /&gt;&#10;                            &lt;Label Grid.Row=&quot;0&quot; FontAttributes=&quot;Bold&quot; Grid.RowSpan=&quot;3&quot; HorizontalTextAlignment=&quot;End&quot;&#10;                                   VerticalTextAlignment=&quot;Center&quot; Grid.Column=&quot;1&quot; Text=&quot;{Binding LookerFee}&quot; /&gt;&#10;                        &lt;/Grid&gt;.../&gt;" />
+            <marker date="1536115065696" expanded="true" signature="683:1789" ph="&lt;&lt;Grid.RowDefinitions&gt;&#10;                                &lt;RowDefinition Height=&quot;20&quot; /&gt;&#10;                                &lt;RowDefinition Height=&quot;20&quot; /&gt;&#10;                                &lt;RowDefinition Height=&quot;20&quot; /&gt;&#10;                            &lt;/Grid.RowDefinitions&gt; &lt;Grid.ColumnDefinitions&gt;&#10;                                &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;                                &lt;ColumnDefinition Width=&quot;*&quot; /&gt;&#10;                            &lt;/Grid.ColumnDefinitions&gt; &lt;Label Grid.Row=&quot;0&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding Schema.Name}&quot; /&gt; &lt;Label Grid.Row=&quot;1&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding LookerDueDate}&quot; /&gt; &lt;Label Grid.Row=&quot;2&quot; Grid.Column=&quot;0&quot; Text=&quot;{Binding LookAddress.FormattedAddress}&quot; /&gt; &lt;Label Grid.Row=&quot;0&quot; FontAttributes=&quot;Bold&quot; Grid.RowSpan=&quot;3&quot; HorizontalTextAlignment=&quot;End&quot;&#10;                                   VerticalTextAlignment=&quot;Center&quot; Grid.Column=&quot;1&quot; Text=&quot;{Binding LookerFee}&quot; /&gt;.../&gt;" />
+            <marker date="1536115065696" expanded="true" signature="730:988" ph="&lt;&lt;RowDefinition Height=&quot;20&quot; /&gt; &lt;RowDefinition Height=&quot;20&quot; /&gt; &lt;RowDefinition Height=&quot;20&quot; /&gt;.../&gt;" />
+            <marker date="1536115065696" expanded="true" signature="1017:1221" ph="&lt;&lt;ColumnDefinition Width=&quot;*&quot; /&gt; &lt;ColumnDefinition Width=&quot;*&quot; /&gt;.../&gt;" />
+            <marker date="1536115065696" expanded="true" signature="1557:1757" ph="&lt;.../&gt;" />
           </folding>
         </state>
       </provider>
