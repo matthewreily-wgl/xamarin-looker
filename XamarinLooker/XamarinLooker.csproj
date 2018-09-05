@@ -13,6 +13,7 @@
     <PackageReference Include="Xamarin.Forms" Version="3.1.0.697729" />
     <PackageReference Include="Auth0.OidcClient.Core" Version="2.3.0" />
     <PackageReference Include="Unity.Container" Version="5.8.10" />
+    <PackageReference Include="Xamarin.Forms.Maps" Version="3.1.0.697729" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Views\" />
@@ -26,6 +27,7 @@
     <Compile Remove="Views\CustomNavigationView.cs" />
     <Compile Remove="Views\LooksView.cs" />
     <Compile Remove="Repositories\Class1.cs" />
+    <Compile Remove="Views\MapPage.xaml.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\MainPage.xaml.cs">

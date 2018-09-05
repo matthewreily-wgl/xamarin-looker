@@ -3,7 +3,7 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="XamarinLooker.Views.CustomNavigationView"    
-    BarBackgroundColor="Green"
+    BarBackgroundColor="#1C475C"
     BarTextColor="White"
     BackgroundColor="Transparent">
 </NavigationPage>

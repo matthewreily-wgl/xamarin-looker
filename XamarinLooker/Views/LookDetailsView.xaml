@@ -1,10 +1,44 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamarinLooker.Views.LookDetailsView"
              xmlns:viewModelBase="clr-namespace:XamarinLooker.ViewModels.Base;assembly=XamarinLooker"
              viewModelBase:ViewModelLocator.AutoWireViewModel="true">
-    <ContentPage.Content>     
-        <StackLayout>
-            <Label Text="{Binding LookDetails.JobNumber}"></Label>
-        </StackLayout>
+    <ContentPage.Content>
+        <StackLayout Padding="10">
+            <ScrollView>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="150"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="50"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <ContentView Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2" Content="{Binding Map}"></ContentView>
+            <Label Grid.Row="1" Grid.Column="0" Text="Job Number"/>
+            <Label Grid.Row="1" Grid.Column="1" Text="{Binding LookDetails.JobNumber}"/>
+            <Label Grid.Row="2" Grid.Column="0" Text="Estimated Time"/>
+            <Label Grid.Row="2" Grid.Column="1" Text="{Binding LookDetails.Schema.EstimatedTime.Max, StringFormat='{0:N} minutes'}"/>
+            <Label Grid.Row="3" Grid.Column="0" Text="On-Site Contact"/>
+            <Label Grid.Row="3" Grid.Column="1" Text="{Binding LookDetails.Forms.Client.OnSiteContact.Name}"/>
+            <Label Grid.Row="4" Grid.Column="0" Text="Phone"/>
+            <Label Grid.Row="4" Grid.Column="1" Text="{Binding LookDetails.Forms.Client.OnSiteContact.Phone}"/>
+            <Label Grid.Row="5" Grid.Column="0" Text="Payment"/>
+            <Label Grid.Row="5" Grid.Column="1" Text="{Binding LookDetails.LookerFee}"/>
+            <StackLayout Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="2" >
+                <Label Text="Instructions"/>
+                    <Label Text="{Binding LookDetails.LookerInstructions}"></Label>    
+             </StackLayout>
+             <Button Grid.Row="7" Grid.ColumnSpan="2" Text="Start Look" BackgroundColor="#2591D5" TextColor="White" Command="{Binding StartLookCommand}"/>
+        </Grid>
+            
+        </ScrollView>
+            </StackLayout>
     </ContentPage.Content>
 </ContentPage>

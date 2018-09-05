@@ -8,7 +8,7 @@ namespace XamarinLooker.ExtensionHelpers
         public static DateTime ToDateTime(this DateFragments fragments)
         {
 
-            return DateTime.ParseExact($"{fragments.Year}-{fragments.Month}-{fragments.Date}", "yyyy-M-dd", System.Globalization.CultureInfo.InvariantCulture);
+            return DateTime.ParseExact($"{fragments.Year}-{fragments.Month}-{fragments.Date}", "yyyy-M-d", System.Globalization.CultureInfo.InvariantCulture);
         }
     }
 }
