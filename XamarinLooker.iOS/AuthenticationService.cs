@@ -23,9 +23,10 @@ namespace XamarinLooker.iOS
             });
         }
 
-        public Task<LoginResult> Authenticate()
+        public Task<LoginResult> AuthenticateAsync()
         {
-            return _auth0Client.LoginAsync();
+            var options = new { audience = "https://apidev.wegolook.com", responseType = "id_token token" };
+            return _auth0Client.LoginAsync(options);
         }
     }
 }

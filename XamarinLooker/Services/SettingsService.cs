@@ -1,9 +1,20 @@
-﻿namespace XamarinLooker.Services
+﻿using XamarinLooker.Model;
+using XamarinLooker.Repositories;
+
+namespace XamarinLooker.Services
 {
     public class SettingsService : ISettingsService
     {
-        public string AuthAccessToken { get; set; }
-        public bool UseMockData { get; set; }
-        public string UserId { get; set; }
+        private readonly ISettingsRepository _repository;
+
+        public SettingsService(ISettingsRepository repository)
+        {
+            _repository = repository;
+        }
+
+        public Settings GetSettings()
+        {
+            return _repository.GetSettings();
+        }
     }
 }

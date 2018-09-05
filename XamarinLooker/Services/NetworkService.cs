@@ -18,15 +18,16 @@ namespace XamarinLooker.Services
         }
         public async Task<Look[]> GetLooks()
         {
-            if (string.IsNullOrEmpty(_settingsService.AuthAccessToken))
+            var settings = _settingsService.GetSettings();
+            if (string.IsNullOrEmpty(settings.AuthAccessToken))
             {
               throw new AuthenticationException("User is not Authenticated");
             }
             var client = new HttpClient();
-            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", _settingsService.AuthAccessToken);
+            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", settings.AuthAccessToken);
 
             //ToDo: replace hardcoded url with a settings property
-            var response = await client.GetAsync($"https://apidev.wegolook.com/users/{ _settingsService.UserId }/looks");
+            var response = await client.GetAsync($"https://apidev.wegolook.com/users/{ settings.UserId }/looks");
 
             var looks = JsonConvert.DeserializeObject<List<Look>>(await response.Content.ReadAsStringAsync());
             return looks.ToArray();

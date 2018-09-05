@@ -20,7 +20,13 @@ namespace XamarinLooker.Model
         [JsonProperty(PropertyName = "normalizedLookAddress")]
         public LookAddress LookAddress { get; set; }
 
-        public string LookerDueDate => DueDates?.Looker != null ? DueDates.Looker.ToDateTime().ToShortDateString() : string.Empty;
+        public string LookerDueDate
+        {
+            get
+            {
+                return DueDates?.Looker != null ? DueDates.Looker.ToDateTime().ToShortDateString() : string.Empty;
+            }
+        }
 
         public string LookerFee => Schema.LookerFee.ToDollars();
     }

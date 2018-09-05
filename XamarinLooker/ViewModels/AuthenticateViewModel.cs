@@ -19,7 +19,7 @@ namespace XamarinLooker.ViewModels
         {
             _authenticationService = DependencyService.Get<IAuthenticationService>();
             _settingsService = settingsService;
-            if(string.IsNullOrEmpty(_settingsService.AuthAccessToken))
+            if(string.IsNullOrEmpty(_settingsService.GetSettings().AuthAccessToken))
             {
                 Login();
             }
@@ -38,16 +38,17 @@ namespace XamarinLooker.ViewModels
 
         private async void Login()
         {
-            var result = await _authenticationService.Authenticate();
+            var result = await _authenticationService.AuthenticateAsync();
 
             if (!result.IsError)
             {
+                var settings = _settingsService.GetSettings();
                 IsAuthenticated = true;
                 var jwtSecurityTokenHandler = new JwtSecurityTokenHandler();
                 var accessToken = result.AccessToken;
                 var decodedToken = jwtSecurityTokenHandler.ReadJwtToken(accessToken);
-                _settingsService.UserId = JsonConvert.DeserializeObject<UserInfo>(decodedToken.Claims.ToArray()[0].Value).Id;
-                _settingsService.AuthAccessToken = result.AccessToken;
+                settings.UserId = JsonConvert.DeserializeObject<UserInfo>(decodedToken.Claims.ToArray()[0].Value).Id;
+                settings.AuthAccessToken = result.AccessToken;
                 await NavigationService.NavigateToAsync<LooksViewModel>();
             }
         }

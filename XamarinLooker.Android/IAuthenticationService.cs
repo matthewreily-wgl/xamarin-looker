@@ -1,9 +1,9 @@
 ﻿using System.Threading.Tasks;
 using IdentityModel.OidcClient;
 
-namespace XamarinLooker.Services
+namespace XamarinLooker.Droid
 {
-    public interface IAuthenticationService
+    public interface IAuthenticadsftionService
     {
         Task<LoginResult> AuthenticateAsync();
     }

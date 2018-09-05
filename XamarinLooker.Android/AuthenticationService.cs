@@ -9,7 +9,7 @@ using XamarinLooker.Services;
 
 namespace XamarinLooker.Droid
 {
-    public class AuthenticationService : IAuthenticationService
+    public class AuthenticationService :  IAuthenticationService
     {
         private readonly IAuth0Client _auth0Client;
 
@@ -22,11 +22,11 @@ namespace XamarinLooker.Droid
 
             });
         }
-        public Task<LoginResult> Authenticate()
+        public async Task<LoginResult> AuthenticateAsync()
         {
             var options = new { audience = "https://apidev.wegolook.com", responseType = "id_token token" };
 
-            var results = _auth0Client.LoginAsync(options);
+            var results = await _auth0Client.LoginAsync(options);
 
             //var x = results.Result.IsError;
 

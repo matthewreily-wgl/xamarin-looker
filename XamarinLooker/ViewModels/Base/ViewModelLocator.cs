@@ -5,7 +5,7 @@ using System.Reflection;
 using Unity;
 using Unity.Lifetime;
 using Xamarin.Forms;
-
+using XamarinLooker.Repositories;
 using XamarinLooker.Services;
 
 namespace XamarinLooker.ViewModels.Base
@@ -35,14 +35,13 @@ namespace XamarinLooker.ViewModels.Base
             _container.RegisterSingleton<LooksViewModel>();
             _container.RegisterSingleton<LookDetailsViewModel>();
             
-            ISettingsService settingService = new SettingsService();
+            ISettingsService settingService = new SettingsService(new InMemorySettingsRepository());
 
-            settingService.UseMockData = true;
+            
             
             _container.RegisterInstance(settingService);
             _container.RegisterInstance<INetworkService>(new NetworkService(settingService));
             _container.RegisterInstance<INavigationService>(new NavigationService(settingService));
-            
 
 
         }
@@ -72,6 +71,15 @@ namespace XamarinLooker.ViewModels.Base
             var viewModel = _container.Resolve(viewModelType);
             view.BindingContext = viewModel;
         }
+    }
+
+    public class SettingsRepository : ISettingsRepository
+    {
+    }
+
+    public interface ISettingsRepository
+    {
+        
     }
 }
 

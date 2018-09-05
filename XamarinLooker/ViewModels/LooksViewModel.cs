@@ -50,7 +50,7 @@ namespace XamarinLooker.ViewModels
 
         private async Task<ObservableCollection<Look>> GetLooks()
         {
-            if (_settingsService.UseMockData)
+            if (_settingsService.GetSettings().UseMockData)
             {
                 return new ObservableCollection<Look>()
                 {

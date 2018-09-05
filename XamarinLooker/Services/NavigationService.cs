@@ -30,7 +30,8 @@ namespace XamarinLooker.Services
 
         public Task InitializeAsync()
         {
-            if (string.IsNullOrEmpty(_settingsService.AuthAccessToken) && !_settingsService.UseMockData)
+            var settings = _settingsService.GetSettings();
+            if (string.IsNullOrEmpty(settings.AuthAccessToken) && !settings.UseMockData)
             {
 
                 return NavigateToAsync<AuthenticateViewModel>();
