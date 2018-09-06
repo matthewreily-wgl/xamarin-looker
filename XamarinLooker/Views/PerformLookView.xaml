@@ -7,5 +7,7 @@
         <!-- Place new controls here -->
         
         <Label Text="Perform the Look!" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+        <Image Source="{Binding ImageSource}"/>
+        <Button Text="Take Photo" Command="{Binding TakePhotoCommand}"/>
     </StackLayout>
 </ContentPage>

@@ -25,8 +25,10 @@ namespace XamarinLooker.ViewModels
             {
                 IsBusy = true;
                 LookDetails = (Look)navigationData;
+                //ToDo need to get a key for android
+                //https://docs.microsoft.com/en-us/xamarin/android/platform/maps-and-location/maps/obtaining-a-google-maps-api-key?tabs=vswin
 
-                if(LookDetails.Forms.Client.DocumentLocation != null)
+                if (LookDetails.Forms.Client.DocumentLocation != null)
                 {
                     var position = new Position(double.Parse(LookDetails.Forms.Client.DocumentLocation.Coordinates.Points[1]), double.Parse(LookDetails.Forms.Client.DocumentLocation.Coordinates.Points[0]));
                         Map = new Map(MapSpan.FromCenterAndRadius(position, Distance.FromMiles(0.5)))
