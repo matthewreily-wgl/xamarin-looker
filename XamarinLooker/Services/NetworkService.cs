@@ -2,6 +2,7 @@
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Security.Authentication;
+using System.Text;
 using System.Threading.Tasks;
 using Newtonsoft.Json;
 using XamarinLooker.Model;
@@ -31,6 +32,21 @@ namespace XamarinLooker.Services
 
             var looks = JsonConvert.DeserializeObject<List<Look>>(await response.Content.ReadAsStringAsync());
             return looks.ToArray();
+        }
+
+        public async Task<string> GetMediaUploadUrlAsync(string lookId)
+        {
+            var settings = _settingsService.GetSettings();
+            if (string.IsNullOrEmpty(settings.AuthAccessToken))
+            {
+                throw new AuthenticationException("User is not Authenticated");
+            }
+            var client = new HttpClient();
+            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", settings.AuthAccessToken);
+            var content = new StringContent($"fileName: {lookId}", Encoding.UTF8, "application/json");
+            var result = await client.PostAsync($"https://apidev.wegolook.com/looks/{lookId}/forms/client/uploads", content);
+            var stringResult = await result.Content.ReadAsStringAsync();
+            return stringResult;
         }
     }
 }

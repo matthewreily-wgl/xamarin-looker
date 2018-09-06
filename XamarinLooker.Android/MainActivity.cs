@@ -27,6 +27,8 @@ namespace XamarinLooker.Droid
             CrossCurrentActivity.Current.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             Xamarin.FormsMaps.Init(this, savedInstanceState);
+            Plugin.CurrentActivity.CrossCurrentActivity.Current.Activity = this;
+
             //CrossCurrentActivity.Current.Init(this, savedInstanceState);
             LoadApplication(new App());
         }
@@ -37,11 +39,12 @@ namespace XamarinLooker.Droid
 
             ActivityMediator.Instance.Send(intent.DataString);
         }
+
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, Android.Content.PM.Permission[] grantResults)
         {
             Plugin.Permissions.PermissionsImplementation.Current.OnRequestPermissionsResult(requestCode, permissions, grantResults);
+            base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
         }
-
 
     }
 }

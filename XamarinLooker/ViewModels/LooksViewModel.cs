@@ -10,6 +10,7 @@ namespace XamarinLooker.ViewModels
     {
         private readonly ISettingsService _settingsService;
         private readonly INetworkService _networkService;
+        private readonly INavigationService _navigationService;
         private Look _selectedLook;
         private ObservableCollection<Look> _looks;
 
@@ -35,15 +36,17 @@ namespace XamarinLooker.ViewModels
             }
         }
 
-        public LooksViewModel(ISettingsService settingsService, INetworkService networkService)
+        public LooksViewModel(ISettingsService settingsService, INetworkService networkService, INavigationService navigationService)
         {
             _settingsService = settingsService;
             _networkService = networkService;
+            _navigationService = navigationService;
             Looks = new ObservableCollection<Look>();
         }
         public override async Task InitializeAsync(object navigationData)
         {
             IsBusy = true;
+            await _navigationService.RemoveLastFromBackStackAsync();
             Looks = await GetLooks();
             IsBusy = false;
         }

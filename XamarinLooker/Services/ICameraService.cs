@@ -9,6 +9,5 @@ namespace XamarinLooker.Services
         Task<MediaFile> TakeVideoAsync();
         Task<MediaFile> PickPhotoAsync();
         Task<MediaFile> PickVideoAsync();
-        
     }
 }

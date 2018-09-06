@@ -6,6 +6,9 @@ namespace XamarinLooker.Model
 {
     public class Look
     {
+        [JsonProperty(PropertyName ="_id")]
+        public string Id { get; set; }
+
         [JsonProperty(PropertyName = "jobNumber")]
         public string JobNumber { get; set; }
 
@@ -44,5 +47,6 @@ namespace XamarinLooker.Model
             }
         }
         public string LookerFee => Schema.LookerFee.ToDollars();
+
     }
 }
