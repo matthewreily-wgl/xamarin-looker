@@ -14,7 +14,7 @@ namespace XamarinLooker.ViewModels
     {
         private Map _map;
         private Look _look;
-        public ICommand StartLookCommand { private set; get; }
+        public ICommand StartLookCommand { get; }
         public LookDetailsViewModel()
         {
             StartLookCommand = new Command(() =>
@@ -24,13 +24,14 @@ namespace XamarinLooker.ViewModels
         }
         public override async Task InitializeAsync(object navigationData)
         {
-            if (navigationData is Look)
+            LookDetails = navigationData as Look;
+            
+            if (LookDetails!=null)
             {
                 IsBusy = true;
-                LookDetails = (Look)navigationData;
+                
                 //Android requires an api key to use the Google Maps Api. Link to directions below
                 //https://docs.microsoft.com/en-us/xamarin/android/platform/maps-and-location/maps/obtaining-a-google-maps-api-key?tabs=vswin
-
 
                 if (LookDetails.Forms.Client.DocumentLocation != null)
                 {
@@ -53,7 +54,7 @@ namespace XamarinLooker.ViewModels
                 {
                     if (await CrossPermissions.Current.ShouldShowRequestPermissionRationaleAsync(Permission.Location))
                     {
-                        //await DisplayAlert("Need location", "Gunna need that location", "OK");
+                        //await DisplayAlert("Need location", "Need that location", "OK");
                     }
 
                     var results = await CrossPermissions.Current.RequestPermissionsAsync(Permission.Location);
@@ -71,12 +72,12 @@ namespace XamarinLooker.ViewModels
                         VerticalOptions = LayoutOptions.FillAndExpand,
 
                     };
-                    Map.Pins.Add(new Pin() { Position = position });
+                    Map.Pins.Add(new Pin { Position = position });
                 }
             }
             catch (Exception ex)
             {
-                //...
+                //ToDo: Handle exception here and log
             }
         }
     

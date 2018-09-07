@@ -40,17 +40,17 @@ namespace XamarinLooker.ViewModels
         {
             var result = await _authenticationService.AuthenticateAsync();
 
-            if (!result.IsError)
-            {
-                var settings = _settingsService.GetSettings();
-                IsAuthenticated = true;
-                var jwtSecurityTokenHandler = new JwtSecurityTokenHandler();
-                var accessToken = result.AccessToken;
-                var decodedToken = jwtSecurityTokenHandler.ReadJwtToken(accessToken);
-                settings.UserId = JsonConvert.DeserializeObject<UserInfo>(decodedToken.Claims.ToArray()[0].Value).Id;
-                settings.AuthAccessToken = result.AccessToken;
-                await NavigationService.NavigateToAsync<LooksViewModel>();
-            }
+            if (result.IsError) 
+                return;
+            
+            var settings = _settingsService.GetSettings();
+            IsAuthenticated = true;
+            var jwtSecurityTokenHandler = new JwtSecurityTokenHandler();
+            var accessToken = result.AccessToken;
+            var decodedToken = jwtSecurityTokenHandler.ReadJwtToken(accessToken);
+            settings.UserId = JsonConvert.DeserializeObject<UserInfo>(decodedToken.Claims.ToArray()[0].Value).Id;
+            settings.AuthAccessToken = result.AccessToken;
+            await NavigationService.NavigateToAsync<LooksViewModel>();
         }
     }
 }

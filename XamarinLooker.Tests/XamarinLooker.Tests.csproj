@@ -17,4 +17,8 @@
   <ItemGroup>
     <ProjectReference Include="..\XamarinLooker\XamarinLooker.csproj" />
   </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="AuthenticationViewModelTests.cs" />
+  </ItemGroup>
 </Project>

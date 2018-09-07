@@ -19,22 +19,29 @@ namespace XamarinLooker.Services
         }
         public async Task<Look[]> GetLooks()
         {
-            var settings = _settingsService.GetSettings();
-            if (string.IsNullOrEmpty(settings.AuthAccessToken))
+            using (var client = GetClient())
             {
-              throw new AuthenticationException("User is not Authenticated");
+
+                //ToDo: replace hardcoded url with a settings property
+                var response = await client.GetAsync($"https://apidev.wegolook.com/users/{ _settingsService.GetSettings().UserId }/looks");
+                var looks = JsonConvert.DeserializeObject<List<Look>>(await response.Content.ReadAsStringAsync());
+                return looks.ToArray();    
             }
-            var client = new HttpClient();
-            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", settings.AuthAccessToken);
-
-            //ToDo: replace hardcoded url with a settings property
-            var response = await client.GetAsync($"https://apidev.wegolook.com/users/{ settings.UserId }/looks");
-
-            var looks = JsonConvert.DeserializeObject<List<Look>>(await response.Content.ReadAsStringAsync());
-            return looks.ToArray();
         }
 
         public async Task<string> GetMediaUploadUrlAsync(string lookId)
+        {
+            using (var client = GetClient())
+            {
+                var content = new StringContent($"fileName: {lookId}", Encoding.UTF8, "application/json");
+                //ToDo: replace hard-coded url
+                var result = await client.PostAsync($"https://apidev.wegolook.com/looks/{lookId}/forms/client/uploads", content);
+                var stringResult = await result.Content.ReadAsStringAsync();
+                return stringResult;    
+            }
+        }
+
+        private HttpClient GetClient()
         {
             var settings = _settingsService.GetSettings();
             if (string.IsNullOrEmpty(settings.AuthAccessToken))
@@ -43,10 +50,7 @@ namespace XamarinLooker.Services
             }
             var client = new HttpClient();
             client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", settings.AuthAccessToken);
-            var content = new StringContent($"fileName: {lookId}", Encoding.UTF8, "application/json");
-            var result = await client.PostAsync($"https://apidev.wegolook.com/looks/{lookId}/forms/client/uploads", content);
-            var stringResult = await result.Content.ReadAsStringAsync();
-            return stringResult;
+            return client;
         }
     }
 }

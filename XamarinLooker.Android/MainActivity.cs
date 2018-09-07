@@ -25,11 +25,10 @@ namespace XamarinLooker.Droid
 
             base.OnCreate(savedInstanceState);
             CrossCurrentActivity.Current.Init(this, savedInstanceState);
-            global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
+            Xamarin.Forms.Forms.Init(this, savedInstanceState);
             Xamarin.FormsMaps.Init(this, savedInstanceState);
-            Plugin.CurrentActivity.CrossCurrentActivity.Current.Activity = this;
+            CrossCurrentActivity.Current.Activity = this;
 
-            //CrossCurrentActivity.Current.Init(this, savedInstanceState);
             LoadApplication(new App());
         }
 
@@ -45,6 +44,5 @@ namespace XamarinLooker.Droid
             Plugin.Permissions.PermissionsImplementation.Current.OnRequestPermissionsResult(requestCode, permissions, grantResults);
             base.OnRequestPermissionsResult(requestCode, permissions, grantResults);
         }
-
     }
 }

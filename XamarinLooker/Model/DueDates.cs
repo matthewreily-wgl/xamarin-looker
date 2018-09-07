@@ -5,11 +5,6 @@ namespace XamarinLooker.Model
 {
     public class DueDates
     {
-        public DueDates()
-        {
-            Report = new DateFragments();
-            Looker = new DateFragments();
-        }
         [JsonProperty(PropertyName = "report")]
         public DateFragments Report { get; set; }
         [JsonProperty(PropertyName = "looker")]

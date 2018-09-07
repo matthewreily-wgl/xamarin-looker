@@ -13,6 +13,11 @@ namespace XamarinLooker.Services
     {
         private readonly ISettingsService _settingsService;
 
+        public NavigationService(ISettingsService settingsService)
+        {
+            _settingsService = settingsService;
+        }
+        
         public ViewModelBase PreviousPageViewModel
         {
             get
@@ -21,11 +26,6 @@ namespace XamarinLooker.Services
                 var viewModel = mainPage.Navigation.NavigationStack[mainPage.Navigation.NavigationStack.Count - 2].BindingContext;
                 return viewModel as ViewModelBase;
             }
-        }
-
-        public NavigationService(ISettingsService settingsService)
-        {
-            _settingsService = settingsService;
         }
 
         public Task InitializeAsync()
@@ -54,11 +54,8 @@ namespace XamarinLooker.Services
         {
             var mainPage = Application.Current.MainPage as CustomNavigationView;
 
-            if (mainPage != null)
-            {
-                mainPage.Navigation.RemovePage(
-                    mainPage.Navigation.NavigationStack[mainPage.Navigation.NavigationStack.Count - 2]);
-            }
+            mainPage?.Navigation.RemovePage(
+                mainPage.Navigation.NavigationStack[mainPage.Navigation.NavigationStack.Count - 2]);
 
             return Task.FromResult(true);
         }

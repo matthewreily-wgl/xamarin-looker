@@ -12,7 +12,7 @@ namespace XamarinLooker.iOS
 {
     public class AuthenticationService : IAuthenticationService
     {
-        private Auth0Client _auth0Client;
+        private readonly Auth0Client _auth0Client;
 
         public AuthenticationService()
         {

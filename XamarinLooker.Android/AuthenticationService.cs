@@ -28,8 +28,6 @@ namespace XamarinLooker.Droid
 
             var results = await _auth0Client.LoginAsync(options);
 
-            //var x = results.Result.IsError;
-
             return results;
         }
     }

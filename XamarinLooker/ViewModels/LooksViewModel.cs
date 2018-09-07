@@ -55,7 +55,7 @@ namespace XamarinLooker.ViewModels
         {
             if (_settingsService.GetSettings().UseMockData)
             {
-                return new ObservableCollection<Look>()
+                return new ObservableCollection<Look>
                 {
                     new Look
                     {
@@ -87,10 +87,8 @@ namespace XamarinLooker.ViewModels
                     }
                 };
             }
-            else
-            {
-                return new ObservableCollection<Look>(await _networkService.GetLooks());
-            }
+
+            return new ObservableCollection<Look>(await _networkService.GetLooks());
         }
     }
 }

@@ -30,15 +30,15 @@
     <Compile Remove="Repositories\Class1.cs" />
     <Compile Remove="Views\MapPage.xaml.cs" />
     <Compile Remove="ViewModels\MainViewModel.cs" />
+    <Compile Remove="Views\MainView.xaml.cs" />
   </ItemGroup>
   <ItemGroup>
     <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\MainPage.xaml.cs">
       <DependentUpon>MainView.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="Views\MainView.xaml.cs">
-      <DependentUpon>MainView.xaml</DependentUpon>
-      <SubType>Code</SubType>
-    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Remove="Views\MainView.xaml" />
   </ItemGroup>
 </Project>

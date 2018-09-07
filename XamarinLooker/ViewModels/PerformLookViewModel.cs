@@ -39,7 +39,7 @@ namespace XamarinLooker.ViewModels
                 {
                     if (await CrossPermissions.Current.ShouldShowRequestPermissionRationaleAsync(Permission.Camera))
                     {
-                        //await DisplayAlert("Need location", "Gunna need that location", "OK");
+                        //await DisplayAlert("Need location", "Need that location", "OK");
                     }
 
                     var results = await CrossPermissions.Current.RequestPermissionsAsync(Permission.Camera);
@@ -75,9 +75,10 @@ namespace XamarinLooker.ViewModels
 
         public override async Task InitializeAsync(object navigationData)
         {
-            if (navigationData is Look)
+            if (navigationData is Look look)
             {
-                Look = (Look)navigationData;
+                Look = look;
+                //ToDo: work on fixing getmediaupload call
               //  UploadUrl = await _networkService.GetMediaUploadUrlAsync(Look.Id);
             }
         }

@@ -21,7 +21,7 @@ namespace XamarinLooker.Services
                 return null;
             }
 
-            return await CrossMedia.Current.TakePhotoAsync(new Plugin.Media.Abstractions.StoreCameraMediaOptions
+            return await CrossMedia.Current.TakePhotoAsync(new StoreCameraMediaOptions
             {
                 Directory = "Sample",
                 Name = "test.jpg"
@@ -36,7 +36,7 @@ namespace XamarinLooker.Services
                 return null;
             }
 
-            return await CrossMedia.Current.TakeVideoAsync(new Plugin.Media.Abstractions.StoreVideoOptions
+            return await CrossMedia.Current.TakeVideoAsync(new StoreVideoOptions
             {
                 Name = "video.mp4",
                 Directory = "DefaultVideos",
@@ -51,9 +51,9 @@ namespace XamarinLooker.Services
                 return null;
             }
 
-            return await Plugin.Media.CrossMedia.Current.PickPhotoAsync(new Plugin.Media.Abstractions.PickMediaOptions
+            return await CrossMedia.Current.PickPhotoAsync(new Plugin.Media.Abstractions.PickMediaOptions
             {
-                PhotoSize = Plugin.Media.Abstractions.PhotoSize.Medium,
+                PhotoSize = PhotoSize.Medium,
             });
         }
         public async Task<MediaFile> PickVideoAsync()
